@@ -1,12 +1,12 @@
 import './App.css'
-import { HomePage } from './Pages/HomePage/homePage.page'
+import { RouterMain } from './Routers/routersMain.router'
 
 export const App = () => {
 
   return (
       <>
         <main>
-            <HomePage/>
+            <RouterMain/>
         </main>
       </>
   )
