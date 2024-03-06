@@ -8,10 +8,10 @@ export const Header = () => {
                 </div>
 
                 <div>
-                    <p>Home</p>
-                    <p>Projects</p>
-                    <p>Contacts</p>
-                    <p>Digital Media</p>
+                    <a>Home</a>
+                    <a>Projects</a>
+                    <a>Contacts</a>
+                    <a>Digital Media</a>
                 </div>
                 
             </header>
