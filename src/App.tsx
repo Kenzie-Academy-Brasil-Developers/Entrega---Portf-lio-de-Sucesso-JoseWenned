@@ -1,4 +1,3 @@
-import './App.css'
 import { RouterMain } from './Routers/routersMain.router'
 
 export const App = () => {
