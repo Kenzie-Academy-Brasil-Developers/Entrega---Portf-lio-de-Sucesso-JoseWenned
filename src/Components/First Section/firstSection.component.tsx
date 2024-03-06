@@ -13,7 +13,7 @@ export const FirstSection = () => {
 
                     <p>Discover here in this environment, created especially for you, all my projects and technologies.</p>
 
-                    <button>See projects</button>
+                    <button type="submit">See projects</button>
 
                     <img ref=""/>
                 </div>
