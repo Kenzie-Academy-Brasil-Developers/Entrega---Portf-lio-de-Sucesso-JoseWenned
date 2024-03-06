@@ -19,13 +19,15 @@ export const FirstSection = () => {
                 </div>
 
                 <div>
-                    <img ref=""/>
-                    <img ref=""/>
-                    <img ref=""/>
-                    <img ref=""/>
-                    <img ref=""/>
-                    <img ref=""/>
-                    <img ref=""/>
+                    <img ref="./src/assets/css-3.png"/>
+                    <img ref="./src/assets/database.png"/>
+                    <img ref="./src/assets/django.png"/>
+                    <img ref="./src/assets/Express.png"/>
+                    <img ref="./src/assets/html.png"/>
+                    <img ref="./src/assets/nodejs.png"/>
+                    <img ref="./src/assets/python.png"/>
+                    <img ref="./src/assets/physics.png"/>
+                    <img ref="./src/assets/typescrit.png"/>
                 </div>
                 
             </section>
