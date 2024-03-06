@@ -6,9 +6,9 @@ export const RouterMain = () => {
         <>
             <Routes>
                 <Route path="/" element={ <HomePage/> }></Route>
-                <Route></Route>
-                <Route></Route>
-                <Route></Route>
+                <Route path="/ProjectsPage" element={ <ProjectsPage/> }></Route>
+                <Route path="/ContactsPage" element={ <ContactsPage/> }></Route>
+                <Route path="/DigitalMedia" element={ <DigitalMedia/> }></Route>
             </Routes>
         </>
     )
