@@ -4,7 +4,7 @@ export const FirstSection = () => {
             <section>
 
                 <div>
-                    <img ref=""/>
+                    <img src=""/>
                     <h1>Hello, my name is José Wenned</h1>
                 </div>
 
@@ -15,19 +15,18 @@ export const FirstSection = () => {
 
                     <button type="submit">See projects</button>
 
-                    <img ref=""/>
+                    <img src=""/>
                 </div>
 
                 <div>
-                    <img ref="./src/assets/css-3.png"/>
-                    <img ref="./src/assets/database.png"/>
-                    <img ref="./src/assets/django.png"/>
-                    <img ref="./src/assets/Express.png"/>
-                    <img ref="./src/assets/html.png"/>
-                    <img ref="./src/assets/nodejs.png"/>
-                    <img ref="./src/assets/python.png"/>
-                    <img ref="./src/assets/physics.png"/>
-                    <img ref="./src/assets/typescrit.png"/>
+                    <img src="./src/assets/css-3.png" alt="icon.css.png"/>
+                    <img src="./src/assets/database.png" alt="icon.database.png"/>
+                    <img src="./src/assets/Express.png" alt="icon.express.png"/>
+                    <img src="./src/assets/html.png" alt="icon.html.png"/>
+                    <img src="./src/assets/nodejs.png" alt="icon.nodejs.png"/>
+                    <img src="./src/assets/python.png" alt="icon.python.png"/>
+                    <img src="./src/assets/physics.png" alt="icon.physics.png"/>
+                    <img src="./src/assets/typescrit.png" alt="icon.typescrit.png"/>
                 </div>
                 
             </section>
