@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Footer = () => {
     return(
         <>
@@ -13,9 +15,9 @@ export const Footer = () => {
                 </div>
 
                 <div>
-                    <a><img src="./src/assets/facebook.png" alt="facebook.png"/></a>
-                    <a><img src="./src/assets/instagram.png" alt="instagram.png"/></a>
-                    <a><img src="./src/assets/linkedin.png" alt="linkendin.png"/></a>
+                    <Link to={"https://www.facebook.com/profile.php?id=100004807723751"}><img src="./src/assets/facebook.png" alt="facebook.png"/></Link>
+                    <Link to={"https://www.instagram.com/j.wenned?igsh=MW5henc0Z2E3eDhqag%3D%3D&utm_source=qr"}><img src="./src/assets/instagram.png" alt="instagram.png"/></Link>
+                    <Link to={"https://www.linkedin.com/in/jos%C3%A9-wenned-chaves-de-sousa-148554165/"}><img src="./src/assets/linkedin.png" alt="linkendin.png"/></Link>
                 </div>
                 
             </footer>
