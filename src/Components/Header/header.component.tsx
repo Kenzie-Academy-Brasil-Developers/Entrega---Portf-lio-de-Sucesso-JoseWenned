@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom"
+
 export const Header = () => {
+
     return(
         <>
             <header>
@@ -8,10 +11,9 @@ export const Header = () => {
                 </div>
 
                 <div>
-                    <a>Home</a>
-                    <a>Projects</a>
-                    <a>Contacts</a>
-                    <a>Digital Media</a>
+                    <Link to="/HomePage">Home</Link>
+                    <Link to="/ProjectsPage">Projects</Link>
+                    <Link to="/ContactsPage">Contacts</Link>
                 </div>
                 
             </header>
