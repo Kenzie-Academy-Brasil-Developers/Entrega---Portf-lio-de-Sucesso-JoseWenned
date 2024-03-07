@@ -14,6 +14,7 @@ export const ThreeSection = () => {
                                 <img src="./src/assets/WhatsApp.png"/>
                             </div>
                             <h3>My phone</h3>
+                            <p>+55(88)9 8185-5950</p>
                             <p>I'm available for a voice chat, let's about creativity together?</p>
                             <a href="https://wa.me/5588981855950" target="blank"><button type="submit">Call now</button></a>
                         </li>
@@ -21,8 +22,9 @@ export const ThreeSection = () => {
                         <li>
                             <img src="./src/assets/Email.png"/>
                             <h3>My email</h3>
+                            <p>wennedchaves1997@gmail.com</p>
                             <p>Send me an email reporting feedbacks suggestions and ideas.</p>
-                            <a href="mailton:wennedchaves1997@gmail.com" target="blank"><button type="submit">Send email now</button></a>
+                            <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="blank"><button type="submit">Send email now</button></a>
                         </li>
 
                         <li>
