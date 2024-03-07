@@ -13,9 +13,11 @@ export const FirstSection = () => {
 
                     <p>Discover here in this environment, created especially for you, all my projects and technologies.</p>
 
-                    <button type="submit">See projects</button>
+                    <div>
+                        <a href="https://github.com/JoseWenned?tab=projects" target="blank"><button>See projects</button></a>
 
-                    <img src="./src/assets/GitHub.png"/>
+                        <a href="https://github.com/JoseWenned" target="blank"><img src="./src/assets/GitHub.png"/></a>
+                    </div>
                 </div>
 
                 <div>
