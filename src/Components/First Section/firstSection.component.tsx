@@ -4,7 +4,7 @@ export const FirstSection = () => {
             <section>
 
                 <div>
-                    <img src=""/>
+                    <img src="./src/assets/Perfil.png"/>
                     <h1>Hello, my name is José Wenned</h1>
                 </div>
 
@@ -15,7 +15,7 @@ export const FirstSection = () => {
 
                     <button type="submit">See projects</button>
 
-                    <img src=""/>
+                    <img src="./src/assets/GitHub.png"/>
                 </div>
 
                 <div>
