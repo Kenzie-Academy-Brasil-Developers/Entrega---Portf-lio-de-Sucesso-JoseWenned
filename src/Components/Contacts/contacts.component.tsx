@@ -1,4 +1,4 @@
-export const ThreeSection = () => {
+export const Contacts = () => {
     return(
         <>
             <section>
