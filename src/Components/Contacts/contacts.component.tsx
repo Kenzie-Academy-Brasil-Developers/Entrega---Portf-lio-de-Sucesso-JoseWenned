@@ -1,4 +1,5 @@
 export const Contacts = () => {
+
     return(
         <>
             <section>
@@ -22,7 +23,7 @@ export const Contacts = () => {
                         <li>
                             <img src="./src/assets/Email.png"/>
                             <h3>My email</h3>
-                            <p>wennedchaves1997@gmail.com</p>
+                            <p id="textEmail">wennedchaves1997@gmail.com</p>
                             <p>Send me an email reporting feedbacks suggestions and ideas.</p>
                             <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="blank"><button type="submit">Send email now</button></a>
                         </li>

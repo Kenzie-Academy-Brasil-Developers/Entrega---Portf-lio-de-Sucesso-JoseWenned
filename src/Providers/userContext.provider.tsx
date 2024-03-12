@@ -4,6 +4,9 @@ import { IUserContext, IUserProvidersProps } from "../Interfaces/UserContext/use
 export const UserContext = createContext({} as IUserContext)
 
 export const UserProvider = ( { children }: IUserProvidersProps) => {
+
+    // Function for copy text E-mail:
+    
     return(
         <UserContext.Provider value={{}}>
             { children }
