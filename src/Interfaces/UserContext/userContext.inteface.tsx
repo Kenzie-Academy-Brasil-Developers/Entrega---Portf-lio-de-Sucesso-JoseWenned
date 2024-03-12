@@ -6,7 +6,8 @@ export interface IUserProvidersProps {
 
 export interface IUserContext {
 
-    handleCopyClick: ( text: string ) => void
+    handleEmailCopyClick: ( text: string ) => void
+    handleTelephoneCopyClick: ( text: string ) => void
 
 }
 
