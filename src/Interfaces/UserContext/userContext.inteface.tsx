@@ -5,5 +5,13 @@ export interface IUserProvidersProps {
 }
 
 export interface IUserContext {
-    
+
+    handleCopyClick: ( text: string ) => void
+
+}
+
+export interface ITextEmail {
+
+    textEmail: HTMLElement | null
+
 }

@@ -1,4 +1,9 @@
+import { UserContext } from "../../Providers/userContext.provider"
+import { useContext } from "react"
+
 export const Contacts = () => {
+
+    const { handleCopyClick } = useContext(UserContext)
 
     return(
         <>
@@ -23,7 +28,10 @@ export const Contacts = () => {
                         <li>
                             <img src="./src/assets/Email.png"/>
                             <h3>My email</h3>
-                            <p id="textEmail">wennedchaves1997@gmail.com</p>
+                            <div>
+                                <p id="textEmail">wennedchaves1997@gmail.com</p>
+                                <button type="submit" onClick={() => handleCopyClick("wennedchaves1997@gmail.com") }>Copy</button>
+                            </div>
                             <p>Send me an email reporting feedbacks suggestions and ideas.</p>
                             <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="blank"><button type="submit">Send email now</button></a>
                         </li>
