@@ -3,7 +3,7 @@ import { useContext } from "react"
 
 export const Contacts = () => {
 
-    const { handleCopyClick } = useContext(UserContext)
+    const { handleEmailCopyClick, handleTelephoneCopyClick } = useContext(UserContext)
 
     return(
         <>
@@ -20,7 +20,10 @@ export const Contacts = () => {
                                 <img src="./src/assets/WhatsApp.png"/>
                             </div>
                             <h3>My phone</h3>
-                            <p>+55(88)9 8185-5950</p>
+                            <div>
+                                <p id="textTelephone">+55(88)9 8185-5950</p>
+                                <button type="submit" onClick={() => handleTelephoneCopyClick("+55(88)9 8185-5950") }>Copy</button>
+                            </div>
                             <p>I'm available for a voice chat, let's about creativity together?</p>
                             <a href="https://wa.me/5588981855950" target="blank"><button type="submit">Call now</button></a>
                         </li>
@@ -30,7 +33,7 @@ export const Contacts = () => {
                             <h3>My email</h3>
                             <div>
                                 <p id="textEmail">wennedchaves1997@gmail.com</p>
-                                <button type="submit" onClick={() => handleCopyClick("wennedchaves1997@gmail.com") }>Copy</button>
+                                <button type="submit" onClick={() => handleEmailCopyClick("wennedchaves1997@gmail.com") }>Copy</button>
                             </div>
                             <p>Send me an email reporting feedbacks suggestions and ideas.</p>
                             <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="blank"><button type="submit">Send email now</button></a>
