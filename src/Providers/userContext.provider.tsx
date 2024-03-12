@@ -1,4 +1,5 @@
 import { createContext } from "react";
+import { IUserContext, IUserProvidersProps } from "../Interfaces/UserContext/userContext.inteface";
 
 export const UserContext = createContext({} as IUserContext)
 
