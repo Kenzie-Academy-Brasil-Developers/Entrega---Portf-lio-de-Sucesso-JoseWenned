@@ -41,16 +41,44 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
         textarea.select();
       
         document.execCommand("copy");
+
+        setTimeout(() => {
+            document.body.removeChild(textarea);
+        }, 200)
+
+        setTimeout(() => {
+            alert("Telephone copied to clipboard.");
+        }, 200)
       
-        document.body.removeChild(textarea);
-      
-        alert("Telephone copied to clipboard.");
     };
+
+    // Function for donwload curriculum CV
+
+    const handleDownloadCv = () => {
+
+        const link = document.createElement("a");
+
+        link.href = "https://drive.google.com/file/d/1Ym4L8cFE-QDNkg2xsH1hlx2VYvGW8On0/view";
+
+        link.download = "Currículo-Backend-José Wenned.pdf";
+
+        link.click()
+
+        setTimeout(() => {
+            document.body.removeChild(link);
+        }, 200)
+
+        setTimeout(() => {
+            alert("Curriculum downloaded.");
+        }, 200)
+    
+    }
     
     return(
         <UserContext.Provider value={{
             handleEmailCopyClick,
-            handleTelephoneCopyClick
+            handleTelephoneCopyClick,
+            handleDownloadCv
         }}>
             { children }
         </UserContext.Provider>
