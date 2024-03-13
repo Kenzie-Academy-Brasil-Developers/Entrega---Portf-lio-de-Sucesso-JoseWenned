@@ -1,4 +1,10 @@
+import { useContext } from "react"
+import { UserContext } from "../../Providers/userContext.provider"
+
 export const Home = () => {
+
+    const { handleDownloadCv } = useContext( UserContext )
+
     return(
         <>
             <section>
@@ -17,6 +23,8 @@ export const Home = () => {
                         <a href="https://github.com/JoseWenned?tab=projects" target="blank"><button>See projects</button></a>
 
                         <a href="https://github.com/JoseWenned" target="blank"><img src="./src/assets/GitHub.png"/></a>
+
+                        <button type="submit" onClick={ handleDownloadCv }>Donwload CV</button>
                     </div>
                 </div>
 

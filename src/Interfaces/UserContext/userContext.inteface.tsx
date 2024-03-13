@@ -8,6 +8,7 @@ export interface IUserContext {
 
     handleEmailCopyClick: ( text: string ) => void
     handleTelephoneCopyClick: ( text: string ) => void
+    handleDownloadCv: () => void
 
 }
 
