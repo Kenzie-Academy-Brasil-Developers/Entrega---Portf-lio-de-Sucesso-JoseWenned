@@ -1,30 +1,35 @@
-const projects = [
+export const projects = [
+
     {
         id: 1,
         name: "Projeto 1",
-        laguange: "Javascript",
+        language: "Javascript",
         description: "Description project...",
         linkGitHub: "link 1",
-        linkVercel: "link 2"
+        linkVercel: "link 2",
+        category: "Frontend"
     },
 
     {
         id: 2,
         name: "Projeto 2",
-        laguange: "Typescript",
+        language: "Typescript",
         description: "Description project...",
         linkGitHub: "link 1",
-        linkVercel: "link 2"
+        linkVercel: "link 2",
+        category: "Backend"
     },
 
     {
         id: 3,
         name: "Projeto 3",
-        laguange: "react",
+        language: "react",
         description: "Description project...",
         linkGitHub: "link 1",
-        linkVercel: "link 2"
+        linkVercel: "link 2",
+        category: "Fullstack"
     }
+    
 ];
 
-export default projects;
+
