@@ -1,13 +1,13 @@
-import { Home } from "../../Components/Home/home.component"
 import { Footer } from "../../Components/Footer/footer.component"
 import { Header } from "../../Components/Header/header.component"
+import { MyProjects } from "../../Components/MyProjects/myProjectsFrontend.component"
 
-export const HomePage = () => {
+export const ProjectsPage = () => {
     return(
         <>
             <Header/>
 
-            <Home/>
+            <MyProjects/>
 
             <Footer/>
         </>
