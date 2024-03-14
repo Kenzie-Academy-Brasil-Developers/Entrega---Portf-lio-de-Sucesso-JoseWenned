@@ -1,9 +1,11 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { IUserContext, IUserProvidersProps } from "../Interfaces/UserContext/userContext.inteface";
-
+import { projects } from "../Data/database";
 export const UserContext = createContext({} as IUserContext)
 
 export const UserProvider = ( { children }: IUserProvidersProps) => {
+
+    const [category, setCategory] = useState("All projects");
 
     // Function for copy text E-mail:
 
@@ -72,13 +74,22 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             alert("Curriculum downloaded.");
         }, 200)
     
-    }
+    };
+
+    // function render projects card in list
+
+    const filteredProjects = projects.filter((project) => {
+        return category === "All projects" || project.category === category
+    });
+
     
     return(
         <UserContext.Provider value={{
             handleEmailCopyClick,
             handleTelephoneCopyClick,
-            handleDownloadCv
+            handleDownloadCv,
+            filteredProjects,
+            setCategory
         }}>
             { children }
         </UserContext.Provider>
