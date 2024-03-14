@@ -1,0 +1,51 @@
+.footer {
+
+    height: 170px;
+    background-color: var(--color-gray-5);
+
+}
+
+.containerPrimary {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titleThank {
+
+    font-family: var(--font-primary);
+    font-size: 1.375rem;
+    font-weight: var(--text-bold-4);
+
+    color: var(--color-gray-0);
+
+    margin-top: 25px;
+
+}
+
+.paragraph {
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-1);
+
+    color: var(--color-gray-0);
+
+    margin-top: 10px;
+}
+
+.containerSecond {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    gap: 8px;
+}
+
+
+
