@@ -23,6 +23,7 @@ export interface IUserContext {
     handleDownloadCv: () => void
     filteredProjects: IDataProject[]
     setCategory: React.Dispatch<React.SetStateAction<string>>
+    sumProjects: () => number
 
 }
 
