@@ -1,0 +1,52 @@
+.header{
+    background-color: var(--color-gray-4);
+    height: 4.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerPrimary {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 67.5rem;
+    gap: 0.438rem;
+
+    margin-top: 0.313rem;
+
+}
+
+.containerSecond {
+
+    margin-top: 0.313rem;
+
+}
+
+.titleName {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: 1.375rem;
+    font-weight: var(--text-bold-4);
+
+}
+
+.titleNavigate {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-2);
+
+    margin-right: 0.438rem;
+    margin-left: 0.438rem;
+    text-decoration: none;
+
+}
