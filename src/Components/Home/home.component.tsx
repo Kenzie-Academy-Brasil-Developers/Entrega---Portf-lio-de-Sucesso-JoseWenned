@@ -3,7 +3,7 @@ import { UserContext } from "../../Providers/userContext.provider"
 
 export const Home = () => {
 
-    const { handleDownloadCv } = useContext( UserContext )
+    const { handleDownloadCv, sumProjects } = useContext( UserContext )
 
     return(
         <>
@@ -31,11 +31,11 @@ export const Home = () => {
                 <div>
                     <div>
                         <img src="" alt=""/>
-                        <p>Years of experience</p>
+                        <p><span>1</span>Years of experience</p>
                     </div>
                     <div>
                         <img src="" alt=""/>
-                        <p>Satisfied customers</p>
+                        <p>{sumProjects()}Satisfied customers</p>
                     </div>
                     <div>
                         <img src="" alt=""/>

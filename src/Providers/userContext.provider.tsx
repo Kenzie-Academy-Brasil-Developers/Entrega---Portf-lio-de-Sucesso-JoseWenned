@@ -82,6 +82,12 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
         return category === "All projects" || project.category === category
     });
 
+    // function for some all projects 
+
+    const sumProjects = (): number => {
+        return projects.length
+    }
+
     
     return(
         <UserContext.Provider value={{
@@ -89,7 +95,8 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             handleTelephoneCopyClick,
             handleDownloadCv,
             filteredProjects,
-            setCategory
+            setCategory,
+            sumProjects
         }}>
             { children }
         </UserContext.Provider>
