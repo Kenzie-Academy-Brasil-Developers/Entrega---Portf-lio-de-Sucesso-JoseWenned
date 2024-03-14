@@ -1,4 +1,4 @@
-import { CardBackend } from "./Card/cardBackend.component"
+import { CardBackend } from "./CardBackend/cardBackend.component"
 
 export const ListProjectsBackend = () => {
     return(
