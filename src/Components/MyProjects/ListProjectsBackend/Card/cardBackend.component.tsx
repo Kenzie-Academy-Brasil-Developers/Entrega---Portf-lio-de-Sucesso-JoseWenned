@@ -1,19 +1,15 @@
-export const Card = () => {
+export const CardBackend = () => {
     return(
         <>
             <ul>
                 <li>
-                    <h2>Nome do Projeto</h2>
+                    <h2>Name project:</h2>
 
                     <div>
-                        <p>Linguagem:</p>
-
-                        <div>
-                            <p>Exemplo</p>
-                        </div>
+                        <p>Language:</p>
                     </div>
 
-                    <p>Descrição</p>
+                    <p>Description</p>
 
                     <div>
                         <div>
@@ -22,7 +18,7 @@ export const Card = () => {
                         </div>
                         <div>
                             <img src="" alt="Image Vercel"/>
-                            <a href="" target="blank">Aplicação</a>
+                            <a href="" target="blank">Application</a>
                         </div>
                     </div>
                 </li>
