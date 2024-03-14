@@ -55,3 +55,32 @@ export const ProjectsBackend = [
         linkvercel: "link 2"
     }
 ]
+
+export const ProjectsFullstack = [
+    {
+        id: 1,
+        name: "Projeto 1",
+        laguange: "Python, React",
+        description: "Description project...",
+        linkGitHub: "link 1",
+        linkvercel: "link 2"
+    },
+
+    {
+        id: 2,
+        name: "Projeto 2",
+        laguange: "Node.js, React",
+        description: "Description project...",
+        linkGitHub: "link 1",
+        linkvercel: "link 2"
+    },
+
+    {
+        id: 3,
+        name: "Projeto 3",
+        laguange: "Express, React",
+        description: "Description project...",
+        linkGitHub: "link 1",
+        linkvercel: "link 2"
+    }
+]
