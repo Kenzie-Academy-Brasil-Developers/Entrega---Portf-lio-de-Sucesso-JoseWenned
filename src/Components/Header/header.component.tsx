@@ -1,20 +1,25 @@
 import { Link } from "react-router-dom"
+import style from "./style.module.scss"
 
 export const Header = () => {
 
     return(
         <>
-            <header>
+            <header className={style.header}>
 
-                <div>
-                    <h1>José Wenned</h1>
-                </div>
+                <div className={style.containerPrimary}>
 
-                <div>
-                    <Link to="/">Home</Link>
-                    <Link to="/AboutMe">About me</Link>
-                    <Link to="/ProjectsPage">Projects</Link>
-                    <Link to="/ContactsPage">Contacts</Link>
+                    <div>
+                        <h1 className={style.titleName}>José Wenned</h1>
+                    </div>
+
+                    <div className={style.containerSecond}>
+                        <Link className={style.titleNavigate} to="/">Home</Link>
+                        <Link className={style.titleNavigate} to="/AboutMe">About</Link>
+                        <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
+                        <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
+                    </div>
+
                 </div>
                 
             </header>
