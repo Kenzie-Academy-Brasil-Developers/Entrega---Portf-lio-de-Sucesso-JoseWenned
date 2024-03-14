@@ -1,11 +1,14 @@
+import { IDataProject } from "../../../Interfaces/DataProject/dataProject.inteface"
 import { CardFrontend } from "./CardFrontend/cardFrontend.component"
 
 export const ListProjectsFrontend = () => {
     return(
         <>
-            <div>
-                <CardFrontend/>
-            </div>
+            <ul>
+                
+                 <CardFrontend/>
+                    
+            </ul>
         </>
     )
 }

@@ -1,28 +1,28 @@
+
 export const CardFrontend = () => {
     return(
         <>
-            <ul>
-                <li>
-                    <h2>Name project:</h2>
+           
+            <li>
+                <h1>Name project:</h1>
 
+                <div>
+                    <p>Language:</p>
+                </div>
+
+                <p>Description:</p>
+
+                <div>
                     <div>
-                        <p>Language:</p>
+                        <img src="" alt="image GitHub"/>
+                        <a href="" target="blank">GitHub:</a>npm 
                     </div>
-
-                    <p>Description</p>
-
                     <div>
-                        <div>
-                            <img src="" alt="image GitHub"/>
-                            <a href="" target="blank">GitHub</a>npm 
-                        </div>
-                        <div>
-                            <img src="" alt="Image Vercel"/>
-                            <a href="" target="blank">Application</a>
-                        </div>
+                        <img src="" alt="Image Vercel"/>
+                        <a href="" target="blank">Application:</a>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </li>
         </>
     )
 }
