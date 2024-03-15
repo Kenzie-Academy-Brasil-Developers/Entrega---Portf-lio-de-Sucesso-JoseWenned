@@ -8,24 +8,16 @@ export const Header = () => {
         <>
             <header className={style.header}>
 
-                <div className={style.containerPrimary}>
+                <h1 className={style.titleName}>José Wenned</h1>
 
-                    <div className={style.containerSubPrimary}>
-                        <h1 className={style.titleName}>José Wenned</h1>
-
-                        <a href="https://github.com/JoseWenned" target="blank"><FaGithub className={style.imageGitHub}/></a>
-                    </div>
-
-                    <div className={style.containerSecond}>
-                        
-                        <Link className={style.titleNavigate} to="/">Home</Link>
-                        <Link className={style.titleNavigate} to="/AboutMe">About</Link>
-                        <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
-                        <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
-
-                    </div>
-
+                <div>
+                    <Link className={style.titleNavigate} to="/">Home</Link>
+                    <Link className={style.titleNavigate} to="/AboutMe">About</Link>
+                    <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
+                    <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
                 </div>
+
+                <a href="https://github.com/JoseWenned" target="blank"><FaGithub className={style.imageGitHub}/></a>
                 
             </header>
         </>

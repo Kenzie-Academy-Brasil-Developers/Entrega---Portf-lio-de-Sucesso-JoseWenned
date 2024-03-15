@@ -65,6 +65,10 @@ export const Home = () => {
                     </div>
 
                 </div>
+
+                <div className={style.imageContainer}>
+                    <img className={style.imageCart} src="./src/assets/header-bg.png.png" alt="image.cartPage"/>
+                </div>
                 
             </section>
         </>
