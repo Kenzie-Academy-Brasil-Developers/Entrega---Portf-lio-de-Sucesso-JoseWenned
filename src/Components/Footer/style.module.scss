@@ -5,6 +5,18 @@
 
 }
 
+@media screen and (min-width: 768px) {
+    .footer {
+
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+
+        
+    }
+}
+
 .containerPrimary {
 
     display: flex;
@@ -12,6 +24,17 @@
     justify-content: center;
     align-items: center;
     
+}
+
+@media screen and (min-width: 768px) {
+    .containerPrimary {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 .titleThank {
@@ -34,7 +57,16 @@
 
     color: var(--color-gray-0);
 
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .paragraph {
+
+        margin-top: 28px;
+        margin-left: 15px;
+        
+    }
 }
 
 .containerSecond {
