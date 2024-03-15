@@ -4,7 +4,6 @@ import style from "./style.module.scss"
 import { IoIosBriefcase } from "react-icons/io";
 import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
 
 export const Home = () => {
 
@@ -65,12 +64,10 @@ export const Home = () => {
                         
                     </div>
 
-                    <div className={style.containerGitHub}>
-                        
-                        <a href="https://github.com/JoseWenned" target="blank"><FaGithub className={style.imageGitHub}/></a>
+                </div>
 
-                    </div>
-
+                <div className={style.imageContainer}>
+                    <img className={style.imageCart} src="./src/assets/header-bg.png.png" alt="image.cartPage"/>
                 </div>
                 
             </section>

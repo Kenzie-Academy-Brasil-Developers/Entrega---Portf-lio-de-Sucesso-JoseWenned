@@ -5,6 +5,7 @@
 
     display: flex;
     justify-content: center;
+    border: none;
 
 }
 
@@ -185,30 +186,44 @@
 
 }
 
-.containerGitHub {
+.containerImage {
 
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    margin-top: 35px;
+    height: 600px;
+    width: 600px;
 
-}
-
-.imageGitHub {
-
-    background-color: var(--color-gray-5);
-    color: var(--color-gray-0);
-
-    width: 36px;
-    height: 36px;
-
-    border-radius: 50%;
+    position: relative;
 
 }
 
-.imageGitHub:hover {
+.imageCartUp {
 
-    background-color: var(--color-primary-50);
-    color: var(--color-gray-0);
+    width: 500px;
+    height: 400px;
+
+    margin: 0;
+
+    position: absolute;
+    top: 40px;
+    right: 30px
+}
+
+.imageCart {
+
+    width: 565px;
+    height: 720px;
+}
+
+.imageContainer {
+    
+    @media screen and (min-width: 1440px) {
+        .imageContainer {
+            display: block; /* Ou apropriado para a sua situação */
+        }
+    }
 
 }
