@@ -1,12 +1,40 @@
 .header{
     background-color: var(--color-gray-5);
     height: 4.5rem;
-    width: 100%;
 
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.containerHeader {
+
+    width: 1250px;
+
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 10px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .containerHeader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleName {
+        margin-top: 10px;
+    }
+
+    .imageGitHub{
+        margin-top: 20px;
+    }
+    .containerNavigate{
+        margin-bottom: 10px;
+    }
 }
 
 .titleName {
@@ -51,7 +79,6 @@
     height: 28px;
 
     border-radius: 50%;
-    // margin-left: 5px;
 
 }
 
