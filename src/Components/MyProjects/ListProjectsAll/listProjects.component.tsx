@@ -10,6 +10,7 @@ export const ListProjectsAll = () => {
             <ul>
                 {filteredProjects.map((project, index) => (
                     <li key={index}>
+                        <img src={project.image}/>
                         <h2>Name:{project.name}</h2>
                         <p>Language:{project.language}</p>
                         <p>Description:{project.description}</p>

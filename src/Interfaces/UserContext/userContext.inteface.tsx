@@ -1,4 +1,5 @@
 export interface IDataProject {
+    image: string | undefined;
 
     id: number;
     name: string;
