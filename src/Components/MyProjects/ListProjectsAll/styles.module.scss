@@ -1,0 +1,73 @@
+// .list{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+
+
+//     border: 1px solid white;
+// }
+
+// .card {
+
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+
+// }
+
+// .containerSubCard {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .image {
+//     width: 310px;
+//     height: 180px;
+// }
+
+// .description {
+
+//     display: flex;
+//     flex-wrap: wrap;
+//     overflow-wrap: break-word;
+
+//     max-width: 1250px;
+
+// }
+
+.list {
+
+    list-style: none;
+
+}
+  
+.card {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+  
+.image {
+
+    width: 310px;
+    height: 180px;
+
+}
+  
+.containerSubCard {
+
+    flex: 2;
+
+}
+  
+.description {
+
+    max-width: 1250px; 
+    overflow-wrap: break-word;
+
+}
