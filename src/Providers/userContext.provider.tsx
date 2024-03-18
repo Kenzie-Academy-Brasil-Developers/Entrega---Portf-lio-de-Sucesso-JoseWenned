@@ -85,9 +85,14 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
     // function for some all projects 
 
     const sumProjects = (): number => {
-        return projects.length
-    }
+        return projects.length;
+    };
 
+    // function open link 
+
+    const handleOpenLink = ( link: string ) => {
+        window.open( link, "_blank" );
+    };
     
     return(
         <UserContext.Provider value={{
@@ -96,7 +101,8 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             handleDownloadCv,
             filteredProjects,
             setCategory,
-            sumProjects
+            sumProjects,
+            handleOpenLink
         }}>
             { children }
         </UserContext.Provider>
