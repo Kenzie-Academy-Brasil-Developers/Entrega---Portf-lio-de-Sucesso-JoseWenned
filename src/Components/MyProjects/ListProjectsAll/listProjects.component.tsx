@@ -4,7 +4,7 @@ import style from "./styles.module.scss"
 
 export const ListProjectsAll = () => {
 
-    const { filteredProjects } = useContext( UserContext )
+    const { filteredProjects, handleOpenLink } = useContext( UserContext )
 
     return(
         <>
@@ -16,8 +16,8 @@ export const ListProjectsAll = () => {
                             <h2 className={style.titleProject}>{project.name}</h2>
                             <p className={style.languageProject}>Languages: {project.language}</p>
                             <p className={style.description}>Description: {project.description}</p>
-                            <p>GitHub:{project.linkGitHub}</p>
-                            <p>Application:{project.linkVercel}</p>
+                            <button onClick={() => handleOpenLink( project.linkGitHub )} className={style.LinkGitHub}>GitHub</button>
+                            <button onClick={() => handleOpenLink( project.linkVercel )}>Application</button>
                             <p>{project.category}</p>
                         </div>
                     </li>
