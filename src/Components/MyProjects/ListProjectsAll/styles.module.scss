@@ -1,46 +1,7 @@
-// .list{
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-
-
-//     border: 1px solid white;
-// }
-
-// .card {
-
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-
-// }
-
-// .containerSubCard {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-// .image {
-//     width: 310px;
-//     height: 180px;
-// }
-
-// .description {
-
-//     display: flex;
-//     flex-wrap: wrap;
-//     overflow-wrap: break-word;
-
-//     max-width: 1250px;
-
-// }
-
 .list {
 
     list-style: none;
+    margin-top: 5px;
 
 }
   
@@ -49,6 +10,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 
 }
   
@@ -64,10 +26,45 @@
     flex: 2;
 
 }
+
+.titleProject {
+
+    font-family: var(--font-primary);
+    font-size: var(--title-1);
+    font-weight: var(--text-bold-4);
+
+    color: var(--color-gray-0);
+
+    margin-left: 2px;
+    margin-top: 8px;
+
+}
+
+.languageProject {
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-2);
+
+    color: var(--color-gray-0);
+
+    margin-left: 2px;
+    margin-top: 8px;
+
+}
   
 .description {
 
     max-width: 1250px; 
     overflow-wrap: break-word;
+
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-1);
+
+    color: var(--color-gray-2);
+
+    margin-left: 2px;
+    margin-top: 8px;
 
 }
