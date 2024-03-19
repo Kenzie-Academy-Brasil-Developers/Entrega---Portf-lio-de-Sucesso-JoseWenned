@@ -138,4 +138,32 @@ export const skills = [
 
 ]
 
+export const tools = [
+
+    {
+        id: 1,
+        image: "./src/assets/icons8-windown-10-80.png"
+    },
+
+    {
+        id: 2,
+        image: "./src/assets/icons8-dbeaver-64.png"
+    },
+
+    {
+        id: 3,
+        image: "./src/assets/icons8-visual-studio-48.png"
+    },
+
+    {
+        id: 4,
+        image: "./src/assets/insomnia-svgrepo-com.png"
+    },
+
+    {
+        id: 5,
+        image: "./src/assets/trellor-color-svgrepo-com.png"
+    },
+
+]
 
