@@ -14,7 +14,7 @@ export const Header = () => {
 
                     <div className={style.containerNavigate}>
                         <Link className={style.titleNavigate} to="/">Home</Link>
-                        <Link className={style.titleNavigate} to="/AboutMe">About</Link>
+                        <Link className={style.titleNavigate} to="/AboutMePage">About</Link>
                         <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
                         <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
                     </div>
