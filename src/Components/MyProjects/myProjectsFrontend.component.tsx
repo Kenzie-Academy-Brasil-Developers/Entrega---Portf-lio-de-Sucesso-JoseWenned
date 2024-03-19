@@ -11,10 +11,10 @@ export const MyProjects = () => {
         <>  
             <section className={style.sectionPrimary}>
                 <div className={style.containerButton}>
-                        <button className={style.button} type="submit" onClick={() => setCategory("All projects")}>All projects</button>
-                        <button className={style.button} type="submit" onClick={() => setCategory("Frontend")}>Frontend projects</button>
-                        <button className={style.button} type="submit" onClick={() => setCategory("Backend")}>Backend projects</button>
-                        <button className={style.button} type="submit" onClick={() => setCategory("Fullstack")}>Fullstack projects</button>
+                        <button className={style.button} type="submit" onClick={() => setCategory("All projects")}>All Projects</button>
+                        <button className={style.button} type="submit" onClick={() => setCategory("Frontend")}>Front End</button>
+                        <button className={style.button} type="submit" onClick={() => setCategory("Backend")}>Back End</button>
+                        <button className={style.button} type="submit" onClick={() => setCategory("Fullstack")}>Full Stack</button>
                 </div>
             </section>
             <section className={style.sectionSecond}>
