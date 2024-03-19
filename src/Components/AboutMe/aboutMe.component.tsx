@@ -2,7 +2,7 @@ import { FaUser } from "react-icons/fa";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { FaHouseUser } from "react-icons/fa";
-import { educations, experiences, skills } from "../../Data/database";
+import { educations, experiences, skills, tools } from "../../Data/database";
 
 export const AboutMe = () => {
     return(
@@ -107,6 +107,41 @@ export const AboutMe = () => {
                             </li>
                         ))}
                     </ul>
+
+                </div>
+
+                <div>
+
+                    <p>Tools</p>
+
+                    <ul>
+                        {tools.map((tool, index) => (
+                            <li key={index}>
+                                <img src={tool.image}/>
+                            </li>
+                        ))}
+                    </ul>
+
+                </div>
+
+                <div>
+
+                    <h2>My services</h2>
+
+                    <div>
+                        <h3>Develop Front-End</h3>
+                        <p>I worked on comprehensive solutions that cover front-end. I can create robust and integrated applications, providing a complete user experience.</p>
+                    </div>
+
+                    <div>
+                        <h3>Develop Back-End</h3>
+                        <p>My passion for back-end development led me to build solid foundations for applications, ensuring performance, scalability and security.</p>
+                    </div>
+
+                    <div>
+                        <h3>Personal identity</h3>
+                        <p>My enthusiasm for continuous learning fuels my search for new challenges and innovative solutions in programming.</p>
+                    </div>
 
                 </div>
 
