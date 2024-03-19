@@ -2,6 +2,7 @@ import { FaUser } from "react-icons/fa";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { FaHouseUser } from "react-icons/fa";
+import { educations, experiences } from "../../Data/database";
 
 export const AboutMe = () => {
     return(
@@ -50,6 +51,44 @@ export const AboutMe = () => {
 
                         <p>Portuguese(Native)</p>
                         <p>English(basic)</p>
+
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <h2>My qualifications</h2>
+
+                    <div>
+
+                        <h3>Experience</h3>
+
+                        <ul>
+                            {experiences.map((experience, index) => (
+                                <li key={index}>
+                                    <p>{experience.company}</p>
+                                    <p>{experience.office}</p>
+                                    <p>{experience.date}</p>
+                                </li>
+                            ))}
+                        </ul>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Education</h3>
+
+                        <ul>
+                            {educations.map((education, index) => (
+                                <li key={index}>
+                                    <p>{education.intitution}</p>
+                                    <p>{education.training}</p>
+                                    <p>{education.date}</p>
+                                </li>
+                            ))}
+                        </ul>
 
                     </div>
 
