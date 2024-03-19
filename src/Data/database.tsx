@@ -46,19 +46,22 @@ export const projects = [
 
 export const experiences = [
 
-    {
+    {   
+        id: 1,
         company: "Kilpolpas",
         office: "Desenvolvedor full stack",
         date: "jan 2023 - jan 1024"
     },
 
-    {
+    {   
+        id: 2,
         company: "Kilpolpas",
         office: "Desenvolvedor full stack",
         date: "jan 2023 - jan 1024"
     },
 
-    {
+    {   
+        id:3,
         company: "Kilpolpas",
         office: "Desenvolvedor full stack",
         date: "jan 2023 - jan 1024"
@@ -68,19 +71,22 @@ export const experiences = [
 
 export const educations = [
 
-    {
+    {   
+        id: 1,
         intitution: "Kenzie Academy Brasil",
         training: "Develop full stack",
         date: "jan 2023 - jan 2024"
     },
 
     {
+        id: 2,
         intitution: "Kenzie Academy Brasil",
         training: "Develop full stack",
         date: "jan 2023 - jan 2024"
     },
 
-    {
+    {   
+        id: 3,
         intitution: "Kenzie Academy Brasil",
         training: "Develop full stack",
         date: "jan 2023 - jan 2024"
