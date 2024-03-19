@@ -1,0 +1,183 @@
+.section {
+
+    height: 690px;
+    background-color: var(--color-gray-4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerSubSection {
+
+    width: 1250px;
+
+}
+
+.containerTitle {
+
+    max-width: 365px;
+
+}
+
+.containerInformation {
+    
+    margin-top: 23px;
+    margin-left: 10px;
+
+}
+
+.containerCard {
+
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+
+}
+
+.titleSection {
+
+    font-family: var(--font-primary);
+    font-size: var(--title-1);
+    font-weight: var(--text-bold-4);
+
+    color: var(--color-gray-0);
+    margin-left: 10px;
+
+}
+
+.textPurple {
+
+    color: var(--color-primary);
+
+}
+
+.imageWhatsApp{
+
+    background-color: var(--color-secondary);
+
+    padding: 20px 22px 20px 22px;
+    border-radius: 8px;
+
+    margin-top: 23px;
+
+}
+
+.imageEmail{
+
+    background-color: var(--color-email);
+
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+
+    margin-top: 23px;
+
+}
+
+.imageLinkedIn{
+
+    background-color: var(--color-linkedIn);
+
+    padding: 20px 22px 20px 22px;
+    border-radius: 8px;
+
+    margin-top: 23px;
+
+}
+
+.titleContact {
+
+    font-family: var(--font-primary);
+    font-size: var(--title-4);
+    font-weight: var(--text-bold-4);
+
+    color: var(--color-gray-0);
+
+}
+
+.contact {
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-2);
+
+    color: var(--color-gray-1);
+
+}
+
+.informationContact {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    margin-top: 15px;
+
+}
+
+.copy {
+
+    color: var(--color-gray-2);
+    margin-left: 5px;
+
+    cursor: pointer;
+
+}
+
+.paragraph {
+
+    font-family: var(--font-primary);
+    font-size: var(--text-caption);
+    font-weight: var(--text-bold-2);
+
+    color: var(--color-gray-2);
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.anchor {
+
+    font-family: var(--font-primary);
+    font-size: var(--text-caption);
+    font-weight: var(--text-bold-1);
+
+    color: var(--color-gray-1);
+
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width: 425px) {
+    .containerSubSection {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .containerSubSection {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .containerTwoSubSection {
+
+        margin-left: 30px;
+
+    }
+}
