@@ -2,7 +2,7 @@ import { FaUser } from "react-icons/fa";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { FaHouseUser } from "react-icons/fa";
-import { educations, experiences } from "../../Data/database";
+import { educations, experiences, skills } from "../../Data/database";
 
 export const AboutMe = () => {
     return(
@@ -95,8 +95,18 @@ export const AboutMe = () => {
                 </div>
 
                 <div>
+                    
+                    <h2>My skills set</h2>
 
-                    <h2>Skills</h2>
+                    <p>Skills</p>
+
+                    <ul>
+                        {skills.map((skill, index) => (
+                            <li key={index}>
+                                <img src={skill.image}/>
+                            </li>
+                        ))}
+                    </ul>
 
                 </div>
 
