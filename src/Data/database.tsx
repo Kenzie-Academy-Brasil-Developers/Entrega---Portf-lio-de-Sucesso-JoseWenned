@@ -96,35 +96,43 @@ export const educations = [
 
 export const skills = [
 
-    {
+    {   
+        id: 1,
         image: "./src/assets/css-3.png"
     },
 
-    {
+    {   
+        id: 2,
         image: "./src/assets/database.png"
     },
 
     {
+        id: 3,
         image: "./src/assets/Express.png"
     },
 
     {
+        id: 4,
         image: "./src/assets/html.png"
     },
 
     {
+        id: 5,
         image: "./src/assets/nodejs.png"
     },
 
     {
+        id: 6,
         image: "./src/assets/python.png"
     },
     
     {
+        id: 7,
         image: "./src/assets/physics.png"
     },
 
     {
+        id: 8,
         image: "./src/assets/typescrit.png"
     },
 
