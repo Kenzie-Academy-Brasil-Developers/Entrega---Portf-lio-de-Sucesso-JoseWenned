@@ -94,4 +94,40 @@ export const educations = [
 
 ]
 
+export const skills = [
+
+    {
+        image: "./src/assets/css-3.png"
+    },
+
+    {
+        image: "./src/assets/database.png"
+    },
+
+    {
+        image: "./src/assets/Express.png"
+    },
+
+    {
+        image: "./src/assets/html.png"
+    },
+
+    {
+        image: "./src/assets/nodejs.png"
+    },
+
+    {
+        image: "./src/assets/python.png"
+    },
+    
+    {
+        image: "./src/assets/physics.png"
+    },
+
+    {
+        image: "./src/assets/typescrit.png"
+    },
+
+]
+
 
