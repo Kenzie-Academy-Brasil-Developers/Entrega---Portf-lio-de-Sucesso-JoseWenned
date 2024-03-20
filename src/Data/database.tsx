@@ -227,7 +227,7 @@ export const tools = [
 
     {
         id: 7,
-        image: "./src/assets/icons8-texto-noção-50.png"
+        image: "./src/assets/icons8-noção-50 (1).png"
     },
 
 ]
