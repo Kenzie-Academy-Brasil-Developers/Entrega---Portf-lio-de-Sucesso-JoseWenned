@@ -158,46 +158,36 @@ export const skills = [
 
     {
         id: 13,
-        image: "./src/assets/django-svgrepo-com.png"
-    },
-
-    {
-        id: 14,
         image: "./src/assets/postgresql-svgrepo-com.png"
     },
 
     {
-        id: 15,
+        id: 14,
         image: "./src/assets/mongodb-svgrepo-com.png"
     },
 
     {
-        id: 16,
+        id: 15,
         image: "./src/assets/sqlite-svgrepo-com.png"
     },
 
     {
-        id: 17,
+        id: 16,
         image: "./src/assets/docker-svgrepo-com.png"
     },
 
     {
-        id: 18,
+        id: 17,
         image: "./src/assets/git-svgrepo-com.png"
     },
 
     {
-        id: 19,
+        id: 18,
         image: "./src/assets/github-color-svgrepo-com.png"
     },
 
     {
-        id: 20,
-        image: "./src/assets/figma-svgrepo-com.png"
-    },
-
-    {
-        id: 21,
+        id: 19,
         image: "./src/assets/figma-svgrepo-com.png"
     },
 
