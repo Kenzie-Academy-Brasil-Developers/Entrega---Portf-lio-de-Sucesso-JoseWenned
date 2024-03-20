@@ -3,10 +3,11 @@ import { RiGraduationCapFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { FaHouseUser } from "react-icons/fa";
 import { educations, experiences, skills, tools } from "../../Data/database";
-import style from "./style.module.scss"
 import { GiOfficeChair } from "react-icons/gi";
 import { HiOfficeBuilding } from "react-icons/hi";
 import { BsCalendar2DateFill } from "react-icons/bs";
+import { FaSchoolFlag } from "react-icons/fa6";
+import style from "./style.module.scss"
 
 export const AboutMe = () => {
     return(
@@ -95,14 +96,25 @@ export const AboutMe = () => {
 
                         <div>
 
-                            <h3>Education</h3>
+                            <h3 className={style.Education}>Education</h3>
 
-                            <ul>
+                            <ul className={style.containerList}>
                                 {educations.map((education, index) => (
-                                    <li key={index}>
-                                        <p>{education.intitution}</p>
-                                        <p>{education.training}</p>
-                                        <p>{education.date}</p>
+                                    <li className={style.containerCard} key={index}>
+
+                                        <div className={style.containerSubCard}>
+                                            <FaSchoolFlag className={style.iconsCardExperience}/>
+                                            <p className={style.textCardExperience}>{education.intitution}</p>
+                                        </div>
+                                        <div className={style.containerSubCard}>
+                                            <RiGraduationCapFill className={style.iconsCardExperience}/>
+                                            <p className={style.textCardExperience}>{education.training}</p>
+                                        </div>
+                                        <div className={style.containerSubCard}>
+                                            <BsCalendar2DateFill className={style.iconsCardExperience}/>
+                                            <p className={style.textCardExperience}>{education.date}</p>
+                                        </div>
+
                                     </li>
                                 ))}
                             </ul>
@@ -111,13 +123,13 @@ export const AboutMe = () => {
 
                     </div>
 
-                    <div>
+                    <div className={style.containerSectionTwo}>
 
-                        <h2>My skills set</h2>
+                        <h2 className={style.titleSectionTwo}>My skills set</h2>
 
-                        <p>Skills</p>
+                        <p className={style.titleSkills}>Skills</p>
 
-                        <ul>
+                        <ul className={style.containerListSkills}>
                             {skills.map((skill, index) => (
                                 <li key={index}>
                                     <img className={style.imageIconLanguage} src={skill.image}/>
@@ -127,11 +139,11 @@ export const AboutMe = () => {
 
                     </div>
 
-                    <div>
+                    <div className={style.containerSectionTwo}>
 
-                        <p>Tools</p>
+                        <h2 className={style.titleSectionTwo}>Tools</h2>
 
-                        <ul>
+                        <ul className={style.containerListSkills}>
                             {tools.map((tool, index) => (
                                 <li key={index}>
                                     <img className={style.imageIconTools} src={tool.image}/>

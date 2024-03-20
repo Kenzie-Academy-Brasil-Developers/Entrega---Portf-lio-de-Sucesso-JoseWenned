@@ -218,3 +218,39 @@
     font-weight: var(--text-bold-1);
 
 }
+
+.Education {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-3);
+    font-weight: var(--text-bold-3);
+
+    margin-top: 15px;
+
+}
+
+.titleSkills {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-3);
+    font-weight: var(--text-bold-3);
+
+    margin-top: 15px;
+
+}
+
+.containerListSkills {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    gap: 10px;
+
+}
