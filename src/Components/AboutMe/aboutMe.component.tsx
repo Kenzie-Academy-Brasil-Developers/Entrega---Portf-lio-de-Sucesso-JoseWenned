@@ -3,6 +3,7 @@ import { RiGraduationCapFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { FaHouseUser } from "react-icons/fa";
 import { educations, experiences, skills, tools } from "../../Data/database";
+import style from "./style.module.scss"
 
 export const AboutMe = () => {
     return(
@@ -103,7 +104,7 @@ export const AboutMe = () => {
                     <ul>
                         {skills.map((skill, index) => (
                             <li key={index}>
-                                <img src={skill.image}/>
+                                <img className={style.imageIconLanguage} src={skill.image}/>
                             </li>
                         ))}
                     </ul>
@@ -117,7 +118,7 @@ export const AboutMe = () => {
                     <ul>
                         {tools.map((tool, index) => (
                             <li key={index}>
-                                <img src={tool.image}/>
+                                <img className={style.imageIconTools} src={tool.image}/>
                             </li>
                         ))}
                     </ul>
