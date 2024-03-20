@@ -225,5 +225,10 @@ export const tools = [
         image: "./src/assets/trello-color-svgrepo-com.png"
     },
 
+    {
+        id: 7,
+        image: "./src/assets/icons8-texto-noção-50.png"
+    },
+
 ]
 
