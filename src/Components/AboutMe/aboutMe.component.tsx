@@ -16,13 +16,15 @@ export const AboutMe = () => {
 
                 <div className={style.containerSubSection}>
 
-                    <div className={style.containerSectionOne}>
+                    <div>
 
                         <h1 className={style.TitleMain}>About me</h1>
 
                         <p className={style.paragraphOne}>Quality of services for over 1 year</p>
 
                         <p className={style.paragraphTwo}>Driven by an insatiable curiosity, I dedicate myself to the craft of coding, engaging in new projects and continually learning.</p>
+
+                        <h2 className={style.titleTwo}>Personal information</h2>
 
                         <div className={style.containerInformationPersonal}>
 
@@ -54,7 +56,7 @@ export const AboutMe = () => {
 
                         <div className={style.containerInformationLanguage}>
 
-                            <h3 className={style.titleLanguage}>Language skills</h3>
+                            <h3 className={style.titleLanguage}>Languages skills</h3>
 
                             <p className={style.textLanguage}>Portuguese (Native)</p>
                             <p className={style.textLanguage}>English (basic)</p>
@@ -63,13 +65,13 @@ export const AboutMe = () => {
 
                     </div>
 
-                    <div className={style.containerSectionTwo}>
+                    <div>
 
-                        <h2 className={style.titleSectionTwo}>My qualifications</h2>
+                        <h2 className={style.titleTwo}>My qualifications</h2>
 
                         <div>
 
-                            <h3 className={style.titleExperirnce}>Experience</h3>
+                            <h3 className={style.titleThree}>Experience</h3>
 
                             <ul className={style.containerList}>
                                 {experiences.map((experience, index) => (
@@ -96,7 +98,7 @@ export const AboutMe = () => {
 
                         <div>
 
-                            <h3 className={style.Education}>Education</h3>
+                            <h3 className={style.titleThree}>Education</h3>
 
                             <ul className={style.containerList}>
                                 {educations.map((education, index) => (
@@ -123,11 +125,11 @@ export const AboutMe = () => {
 
                     </div>
 
-                    <div className={style.containerSectionTwo}>
+                    <div>
 
-                        <h2 className={style.titleSectionTwo}>My skills set</h2>
+                        <h2 className={style.titleTwo}>My skills set</h2>
 
-                        <p className={style.titleSkills}>Skills</p>
+                        <h3 className={style.titleThree}>Skills</h3>
 
                         <ul className={style.containerListSkills}>
                             {skills.map((skill, index) => (
@@ -139,9 +141,9 @@ export const AboutMe = () => {
 
                     </div>
 
-                    <div className={style.containerSectionTwo}>
+                    <div>
 
-                        <h2 className={style.titleSectionTwo}>Tools</h2>
+                        <h3 className={style.titleThree}>Tools</h3>
 
                         <ul className={style.containerListSkills}>
                             {tools.map((tool, index) => (
@@ -153,22 +155,22 @@ export const AboutMe = () => {
 
                     </div>
 
-                    <div className={style.containerSectionTwo}>
+                    <h2 className={style.titleTwo}>My services</h2>
 
-                        <h2 className={style.titleSectionTwo}>My services</h2>
+                    <div className={style.containerMainServices}>
 
                         <div className={style.containerServices}>
-                            <h3 className={style.titleServices}>Develop Front-End</h3>
+                            <h3 className={style.titleThree}>Develop Front-End</h3>
                             <p className={style.paragraphServices}>I worked on comprehensive solutions that cover front-end. I can create robust and integrated applications, providing a complete user experience.</p>
                         </div>
 
                         <div className={style.containerServices}>
-                            <h3 className={style.titleServices}>Develop Back-End</h3>
+                            <h3 className={style.titleThree}>Develop Back-End</h3>
                             <p className={style.paragraphServices}>My passion for back-end development led me to build solid foundations for applications, ensuring performance, scalability and security.</p>
                         </div>
 
                         <div className={style.containerServices}> 
-                            <h3 className={style.titleServices}>Personal identity</h3>
+                            <h3 className={style.titleThree}>Personal identity</h3>
                             <p className={style.paragraphServices}>My enthusiasm for continuous learning fuels my search for new challenges and innovative solutions in programming.</p>
                         </div>
 
