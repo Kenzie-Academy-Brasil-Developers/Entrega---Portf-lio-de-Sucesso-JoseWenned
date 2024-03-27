@@ -6,7 +6,6 @@ export const UserContext = createContext({} as IUserContext)
 export const UserProvider = ( { children }: IUserProvidersProps) => {
 
     const [category, setCategory] = useState( "All projects" );
-    const [isOpen, setOpen] = useState( false )
 
     // Function for copy text E-mail:
 
@@ -95,15 +94,6 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
         window.open( link, "_blank" );
     };
 
-    // function open select navigate header
-
-    const handleOpenSelect = () => {
-        if(!isOpen){
-            return true
-        } else {
-            setOpen(false)
-        }
-    }
     
     return(
         <UserContext.Provider value={{
@@ -113,8 +103,7 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             filteredProjects,
             setCategory,
             sumProjects,
-            handleOpenLink,
-            handleOpenSelect
+            handleOpenLink
         }}>
             { children }
         </UserContext.Provider>
