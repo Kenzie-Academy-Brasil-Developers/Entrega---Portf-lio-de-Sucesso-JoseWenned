@@ -13,14 +13,22 @@ export const Header = () => {
 
                     <h1 className={style.titleName}>José Wenned</h1>
 
-                    < BsList className={style.iconList}/>
+                    <div>
 
-                    <select id="navigate" name="slecione navegação">
-                        <option><Link className={style.titleNavigate} to="/">Home</Link></option>
-                        <option><Link className={style.titleNavigate} to="/AboutMePage">About</Link></option>
-                        <option><Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link></option>
-                        <option><Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link></option>
-                    </select>
+                        < BsList className={style.iconList}/>
+
+                    </div>
+                    {isOpen && (
+
+                            <select id="navigate" name="slecione navegação">
+                                <option><Link className={style.titleNavigate} to="/">Home</Link></option>
+                                <option><Link className={style.titleNavigate} to="/AboutMePage">About</Link></option>
+                                <option><Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link></option>
+                                <option><Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link></option>
+                            </select>
+                        )
+                        
+                    }
 
                     <a href="https://github.com/JoseWenned" target="blank"><FaGithub className={style.imageGitHub}/></a>
 
