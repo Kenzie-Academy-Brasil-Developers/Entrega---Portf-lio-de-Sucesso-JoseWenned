@@ -2,8 +2,15 @@ import { Link } from "react-router-dom"
 import style from "./style.module.scss"
 import { FaGithub } from "react-icons/fa";
 import { BsList } from "react-icons/bs";
+import {  useState } from "react";
 
 export const Header = () => {
+
+    const [isOpen, setOpen] = useState( false );
+
+    const handleOpenSelect = () => {
+        setOpen(!isOpen);
+    };
 
     return(
         <>
@@ -15,17 +22,17 @@ export const Header = () => {
 
                     <div>
 
-                        < BsList className={style.iconList}/>
+                        < BsList className={style.iconList} onClick={handleOpenSelect}/>
 
                     </div>
                     {isOpen && (
 
-                            <select id="navigate" name="slecione navegação">
-                                <option><Link className={style.titleNavigate} to="/">Home</Link></option>
-                                <option><Link className={style.titleNavigate} to="/AboutMePage">About</Link></option>
-                                <option><Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link></option>
-                                <option><Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link></option>
-                            </select>
+                            <div onChange={() =>setOpen(false)}>
+                                <Link className={style.titleNavigate} to="/">Home</Link>
+                                <Link className={style.titleNavigate} to="/AboutMePage">About</Link>
+                                <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
+                                <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
+                            </div>
                         )
                         
                     }
