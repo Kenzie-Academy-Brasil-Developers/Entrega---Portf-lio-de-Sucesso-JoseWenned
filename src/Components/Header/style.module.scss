@@ -1,0 +1,99 @@
+.header{
+    background-color: var(--color-gray-5);
+    height: 4.5rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.containerHeader {
+
+    width: 1250px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 10px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .containerHeader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleName {
+        margin-top: 10px;
+    }
+
+    .imageGitHub{
+        margin-top: 20px;
+    }
+    .containerNavigate{
+        margin-bottom: 10px;
+    }
+}
+
+.titleName {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: 1.375rem;
+    font-weight: var(--text-bold-4);
+
+}
+
+.titleNavigate {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-2);
+
+    margin-right: 0.438rem;
+    margin-left: 0.438rem;
+    text-decoration: none;
+
+}
+
+.containerGitHub {
+
+    display: flex;
+    justify-content: end;
+
+    margin-top: 35px;
+
+}
+
+.imageGitHub {
+
+    background-color: var(--color-gray-5);
+    color: var(--color-gray-0);
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50%;
+
+}
+
+.imageGitHub:hover {
+
+    background-color: var(--color-gray-0);
+    color: var(--color-gray-5);
+
+}
+
+.iconListNavigate {
+    width: 30px;
+    height: 30px;
+
+    background-color: var(--color-gray-4);
+    color: var(--color-gray-3);
+}
+

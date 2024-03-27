@@ -1,0 +1,166 @@
+.list {
+
+    list-style: none;
+    margin-top: 5px;
+
+    overflow-y: auto;
+
+    height: 400px;
+
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+
+
+}
+  
+.card {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+  
+.image {
+
+    width: 300px;
+    height: 180px;
+
+    border-radius: 6px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+  
+.containerSubCard {
+
+    flex: 2;
+    margin-right: 10px;
+
+}
+
+.titleProject {
+
+    font-family: var(--font-primary);
+    font-size: var(--title-1);
+    font-weight: var(--text-bold-4);
+
+    color: var(--color-gray-0);
+
+    margin-left: 5px;
+    margin-top: 8px;
+
+}
+
+.languageProject {
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-2);
+
+    color: var(--color-gray-0);
+
+    margin-left: 5px;
+    margin-top: 8px;
+
+}
+  
+.description {
+
+    max-width: 1250px; 
+    overflow-wrap: break-word;
+    text-align: justify;
+
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-1);
+
+    color: var(--color-gray-2);
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+
+}
+
+.button {
+
+    width: 105px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-2);
+
+    transition: background-color 0.3s;
+
+    cursor: pointer;
+    
+}
+
+.button:hover {
+
+    background-color: var( --color-primary-50);
+
+}
+
+.category {
+
+    width: 105px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-gray-3);
+    color: var(--color-white);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-2);
+
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+
+@media screen and (min-width: 768px){
+
+    .list {
+
+        height: 500px;
+
+    }
+    
+    .card {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .containerSubCard {
+
+        margin-left: 5px;
+
+    }
+    
+}

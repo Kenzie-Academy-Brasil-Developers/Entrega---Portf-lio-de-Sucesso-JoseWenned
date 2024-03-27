@@ -1,0 +1,218 @@
+.section {
+
+    background-color: var(--color-gray-4);
+    height: 690px;
+
+    display: flex;
+    justify-content: center;
+    border: none;
+
+}
+
+.containerPrimary {
+
+    height: 579px;
+    max-width: 90%;
+
+    margin-top:38px;
+
+}
+
+.containerSecond {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.imageProfile {
+
+    width: 46px;
+    height: 46px;
+
+    border-radius: 50%;
+
+}
+
+.titleName {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-1);
+
+    margin-left: 7px;
+
+}
+
+.containerThird {
+
+    margin-top: 40px;
+    height: 148px;
+
+}
+
+.paragraphPrimary {
+
+    font-family: var(--font-primary);
+    font-size: 2.25rem;
+    font-weight: var(--text-bold-4);
+
+    color: var(--color-gray-0);
+
+}
+
+.textPurple {
+
+    color: var(--color-primary);
+
+}
+
+.paragraphSecond {
+
+    margin-top: 40px;
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-1);
+
+    color: var(--color-gray-0);
+
+}
+
+.containerSubThird {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 40px;
+    gap: 0.5rem;
+
+}
+
+.button {
+
+    width: 140px;
+    height: 48px;
+
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-2);
+
+    transition: background-color 0.3s;
+
+    cursor: pointer;
+
+}
+
+.button:hover {
+
+    background-color: var( --color-primary-50);
+
+}
+
+.containerFourth {
+
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen and (min-width: 1440px) {
+    .containerFourth {
+        display: block;
+    }
+}
+
+.containerSubFourth {
+
+    background-color: var(--color-gray-2);
+    height: 50px;
+    width: 100%;
+
+    margin-top: 20px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    transition: background-color 0.3s;
+
+}
+
+@media screen and (min-width: 1440px) {
+    .containerSubFourth {
+        width: 400px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+}
+
+.containerSubFourth:hover {
+
+    outline: none;
+    background-color: #6c757d;
+
+}
+
+.numberExperience {
+
+    color: var(--color-primary-50);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-1);
+    font-weight: var(--text-bold-4);
+
+    margin-left: 5px;
+
+}
+
+.text {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-2);
+
+    margin-left: 5px;
+
+}
+
+.icons {
+
+    width: 25px;
+    height: 25px;
+
+    margin-left: 8px;
+
+}
+
+.imageCart {
+
+    width: 565px;
+    height: 690px;
+
+
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width: 1440px) {
+    .imageCart {
+        display: none; 
+    }
+}

@@ -1,19 +1,32 @@
-import { ListProjectsBackend } from "./ListProjectsBackend/myProjectsBackend.component"
-import { ListProjectsFrontend } from "./ListProjectsFrontend/listProjects.components"
+import { useContext } from "react"
+import { UserContext } from "../../Providers/userContext.provider"
+import { ListProjectsAll } from "./ListProjectsAll/listProjects.component"
+import  style  from "./style.module.scss"
 
 export const MyProjects = () => {
+
+    const { setCategory } = useContext( UserContext )
+
     return(
         <>  
-            <header>
-                <button>all projects</button>
-                <button>Frontend projects</button>
-                <button>Backend projects</button>
-                <button>Fullstack projects</button>
-            </header>
-            <section>
-                <h2>My Projects</h2>
-                <ListProjectsFrontend/>
-                <ListProjectsBackend/>
+            <section className={style.sectionPrimary}>
+                <div className={style.containerButton}>
+                        <button className={style.button} type="submit" onClick={() => setCategory("All projects")}>All Projects</button>
+                        <button className={style.button} type="submit" onClick={() => setCategory("Frontend")}>Front End</button>
+                        <button className={style.button} type="submit" onClick={() => setCategory("Backend")}>Back End</button>
+                        <button className={style.button} type="submit" onClick={() => setCategory("Fullstack")}>Full Stack</button>
+                </div>
+            </section>
+            <section className={style.sectionSecond}>
+
+                <h2 className={style.titleProjects}>My Projects</h2>
+
+                <div className={style.sectionSubSecond}>
+
+                    <ListProjectsAll/>
+                    
+                </div>
+                
             </section>
         </>
     )

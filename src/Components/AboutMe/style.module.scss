@@ -1,0 +1,321 @@
+.imageIconLanguage {
+
+    width: 48px;
+    height: 48px;
+
+}
+
+.imageIconTools {
+
+    width: 48px;
+    height: 48px;
+
+}
+
+.section {
+
+    background-color: var(--color-gray-4);
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerSubSection {
+
+    width: 1250px;
+
+}
+
+.TitleMain {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-1);
+    font-weight: var(--text-bold-4);
+
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.paragraphOne {
+
+    color: var(--color-primary);
+
+    font-family: var(--font-primary);
+    font-size: var( --title-2);
+    font-weight: var(--text-bold-4);
+
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.paragraphTwo {
+
+    color: var(--color-gray-1);
+    line-height: 24px;
+
+    font-family: var(--font-primary);
+    font-size: var(--title-4);
+    font-weight: var(--text-bold-1);
+
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+
+}
+
+.containerInformationPersonal {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    margin-top: 10px;
+
+}
+
+.iconsInformationPersonal {
+
+    color: var(--color-gray-0);
+
+}
+
+.textInformationPersonal {
+
+    color: var(--color-gray-2);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-1);
+
+}
+
+.containerInformationLanguage {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titleLanguage {
+
+    color: var(--color-gray-1);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-4);
+    font-weight: var(--text-bold-3);
+
+    margin-bottom: 10px;
+    margin-top: 20px
+
+}
+
+.textLanguage {
+
+    color: var(--color-gray-2);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-1);
+
+    margin-top: 10px;
+
+}
+
+.titleTwo {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-2);
+    font-weight: var(--text-bold-4);
+
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+
+}
+
+.titleThree {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-3);
+    font-weight: var(--text-bold-3);
+
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+
+.containerList {
+
+    border-radius: 8px;
+
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.containerCard {
+
+    border: 2px solid var(--color-gray-2);
+    border-radius: 8px;
+    width: 300px;
+    height: 100px;
+
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerSubCard {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 8px;
+    margin-left: 8px;
+    gap: 10px;
+
+}
+
+.iconsCardExperience {
+
+   color: var(--color-gray-0);
+
+}
+
+.textCardExperience {
+
+    color: var(--color-gray-2);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-1);
+
+}
+
+.Education {
+
+    color: var(--color-gray-0);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-3);
+    font-weight: var(--text-bold-3);
+
+    margin-top: 15px;
+
+}
+
+.containerListSkills {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+
+}
+
+.containerMainServices {
+
+    margin-left: 8px;
+    margin-right: 8px;  
+    margin-bottom: 10px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerServices {
+
+    border: 1px solid var(--color-gray-2);
+    border-radius: 8px;
+
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.paragraphServices {
+
+    color: var(--color-gray-2);
+    line-height: 20px;
+
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-2);
+
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .containerList {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .containerCard {
+
+       width: 300px;
+    
+    }
+
+    .containerMainServices {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+}
