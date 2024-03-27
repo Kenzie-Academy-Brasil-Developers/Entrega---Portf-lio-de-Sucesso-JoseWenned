@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import style from "./style.module.scss"
-import { FaGithub } from "react-icons/fa";
 import { BsList } from "react-icons/bs";
 import {  useState } from "react";
 
@@ -22,23 +21,26 @@ export const Header = () => {
 
                     <div>
 
-                        < BsList className={style.iconList} onClick={handleOpenSelect}/>
+                        <div>
+                            
+                            < BsList className={style.iconList} onClick={handleOpenSelect}/>
+
+                            {isOpen && (
+
+                                    <div className={style.containerNavigate} id="navigate" onChange={() =>setOpen(false)}>
+                                        <Link className={style.titleNavigate} to="/">Home</Link>
+                                        <Link className={style.titleNavigate} to="/AboutMePage">About</Link>
+                                        <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
+                                        <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
+                                    </div>
+
+                                )
+
+                            }
+
+                        </div>
 
                     </div>
-                    {isOpen && (
-
-                            <div onChange={() =>setOpen(false)}>
-                                <Link className={style.titleNavigate} to="/">Home</Link>
-                                <Link className={style.titleNavigate} to="/AboutMePage">About</Link>
-                                <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
-                                <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
-                            </div>
-                        )
-                        
-                    }
-
-                    <a href="https://github.com/JoseWenned" target="blank"><FaGithub className={style.imageGitHub}/></a>
-
                 </div>
                 
             </header>
