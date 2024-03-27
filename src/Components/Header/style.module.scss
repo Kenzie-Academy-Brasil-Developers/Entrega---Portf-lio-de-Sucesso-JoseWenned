@@ -19,24 +19,6 @@
 
 }
 
-@media screen and (max-width: 450px) {
-    .containerHeader{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .titleName {
-        margin-top: 10px;
-    }
-
-    .imageGitHub{
-        margin-top: 20px;
-    }
-    .containerNavigate{
-        margin-bottom: 10px;
-    }
-}
-
 .titleName {
 
     color: var(--color-gray-0);
@@ -70,6 +52,13 @@
 
 }
 
+.iconList {
+
+    color: var(--color-gray-0);
+    background-color: var(--color-gray-5);
+
+}
+
 .imageGitHub {
 
     background-color: var(--color-gray-5);
@@ -97,3 +86,20 @@
     color: var(--color-gray-3);
 }
 
+@media screen and (max-width: 450px) {
+    .containerHeader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleName {
+        margin-top: 10px;
+    }
+
+    .imageGitHub{
+        margin-top: 20px;
+    }
+    .containerNavigate{
+        margin-bottom: 10px;
+    }
+}
