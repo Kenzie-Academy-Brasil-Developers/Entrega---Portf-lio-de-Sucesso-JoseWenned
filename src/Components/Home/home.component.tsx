@@ -4,6 +4,7 @@ import style from "./style.module.scss"
 import { IoIosBriefcase } from "react-icons/io";
 import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
+import { CgCloseR } from "react-icons/cg";
 
 export const Home = () => {
 
@@ -15,8 +16,13 @@ export const Home = () => {
 
                 <div className={style.containerPrimary}>
 
+                    <div id="myModal" className={style.modal}>
+                        <CgCloseR className={style.closeModal}/>
+                        <img className={style.containerModal} id="img01"/>
+                    </div>
+
                     <div className={style.containerSecond}>
-                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg"/>
+                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg" id="myImg"/>
                         <h1 className={style.titleName}>Hello, my name is José Wenned</h1>
                     </div>
 
