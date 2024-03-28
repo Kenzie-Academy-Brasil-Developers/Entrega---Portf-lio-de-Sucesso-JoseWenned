@@ -12,6 +12,10 @@ export const Header = () => {
         setOpen(!isOpen);
     };
 
+    const handleCloseSection = () => {
+        setOpen(false)
+    }
+
     return(
         <>
             <header className={style.header}>
@@ -29,7 +33,7 @@ export const Header = () => {
                             {isOpen && (
 
                                     <section className={style.containerNavigate} id="navigate" onChange={() =>setOpen(false)}>
-                                        <CgCloseR className={style.iconClose}/>
+                                        <CgCloseR className={style.iconClose} onClick={handleCloseSection}/>
                                         <Link className={style.titleNavigate} to="/">Home</Link>
                                         <Link className={style.titleNavigate} to="/AboutMePage">About</Link>
                                         <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
