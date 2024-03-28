@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import style from "./style.module.scss"
 import { BsList } from "react-icons/bs";
 import {  useState } from "react";
+import { CgCloseR } from "react-icons/cg";
 
 export const Header = () => {
 
@@ -27,12 +28,13 @@ export const Header = () => {
 
                             {isOpen && (
 
-                                    <div className={style.containerNavigate} id="navigate" onChange={() =>setOpen(false)}>
+                                    <section className={style.containerNavigate} id="navigate" onChange={() =>setOpen(false)}>
+                                        <CgCloseR className={style.iconClose}/>
                                         <Link className={style.titleNavigate} to="/">Home</Link>
                                         <Link className={style.titleNavigate} to="/AboutMePage">About</Link>
                                         <Link className={style.titleNavigate} to="/ProjectsPage">Projects</Link>
                                         <Link className={style.titleNavigate} to="/ContactsPage">Contacts</Link>
-                                    </div>
+                                    </section>
 
                                 )
 
