@@ -97,8 +97,6 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
 
     // function access modal
 
-    // const imageProfile = document.getElementById("myImage");
-
     const openModal = () => {
 
         setModalOpen(!modalOpen)
@@ -106,7 +104,9 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
     }
 
     const closeModal = () => {
+
         setModalOpen(false)
+
     }
     
     return(
@@ -117,7 +117,9 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             filteredProjects,
             setCategory,
             sumProjects,
-            handleOpenLink
+            handleOpenLink,
+            openModal,
+            closeModal
         }}>
             { children }
         </UserContext.Provider>

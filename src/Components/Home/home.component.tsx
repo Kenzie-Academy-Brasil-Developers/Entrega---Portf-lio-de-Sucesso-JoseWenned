@@ -16,9 +16,8 @@ export const Home = () => {
 
                 <div className={style.containerPrimary}>
 
-                    <div id="myModal" className={style.modal}>
-                        <CgCloseR className={style.closeModal}/>
-                        <img className={style.containerModal} id="img01"/>
+                    <div id="modal" className={style.modal}>
+                        <CgCloseR className={style.closeModal} id="closeModal"/>
                     </div>
 
                     <div className={style.containerSecond}>
