@@ -106,3 +106,15 @@
     background-color: var(--color-gray-4);
     color: var(--color-gray-3);
 }
+
+@media screen and (min-width: 1250px) {
+
+    .containerNavigate{
+
+        position: absolute;
+        top: 0;
+        right: calc((100% - 1250px)/ 2);
+
+    }
+    
+}
