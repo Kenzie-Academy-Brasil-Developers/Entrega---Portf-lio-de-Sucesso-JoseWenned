@@ -8,7 +8,7 @@ import { CgCloseR } from "react-icons/cg";
 
 export const Home = () => {
 
-    const { handleDownloadCv, sumProjects } = useContext( UserContext )
+    const { handleDownloadCv, sumProjects, openModal, closeModal } = useContext( UserContext )
 
     return(
         <>
