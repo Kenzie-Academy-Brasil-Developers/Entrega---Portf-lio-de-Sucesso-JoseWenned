@@ -6,6 +6,7 @@ export const UserContext = createContext({} as IUserContext)
 export const UserProvider = ( { children }: IUserProvidersProps) => {
 
     const [category, setCategory] = useState( "All projects" );
+    const [modalOpen, setModalOpen] = useState ( false )
 
     // Function for copy text E-mail:
 
@@ -94,6 +95,19 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
         window.open( link, "_blank" );
     };
 
+    // function access modal
+
+    // const imageProfile = document.getElementById("myImage");
+
+    const openModal = () => {
+
+        setModalOpen(!modalOpen)
+
+    }
+
+    const closeModal = () => {
+        setModalOpen(false)
+    }
     
     return(
         <UserContext.Provider value={{
