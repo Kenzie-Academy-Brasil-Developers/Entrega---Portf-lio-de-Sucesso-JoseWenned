@@ -3,6 +3,7 @@ import style from "./style.module.scss"
 import { BsList } from "react-icons/bs";
 import {  useState } from "react";
 import { CgCloseR } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 
 export const Header = () => {
 
@@ -24,7 +25,7 @@ export const Header = () => {
 
                     <h1 className={style.titleName}>José Wenned</h1>
 
-                    <div>
+                    <div className={style.containerItems}>
 
                         <div>
                             
@@ -46,7 +47,10 @@ export const Header = () => {
 
                         </div>
 
+                        <a href="https://github.com/JoseWenned" target="blank"><FaGithub className={style.imageGitHub}/></a>
+
                     </div>
+
                 </div>
                 
             </header>

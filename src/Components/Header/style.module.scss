@@ -107,6 +107,33 @@
 
 }
 
+.containerItems {
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.imageGitHub {
+
+    background-color: var(--color-gray-5);
+    color: var(--color-gray-0);
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+}
+
+.imageGitHub:hover {
+
+    color: var(--color-gray-2);
+
+}
+
 .containerGitHub {
 
     display: flex;
