@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { CgCloseR } from "react-icons/cg";
 import { UserContext } from "../../Providers/userContext.provider";
+import style from "./style.module.scss"
 
 export const Modal = () => {
 
@@ -16,13 +17,13 @@ export const Modal = () => {
 
         <>
 
-            <section>
+            <section className={style.overlay}>
 
-                <div>
+                <div className={style.container}> 
 
-                    <CgCloseR onClick={ CloseModal }/>
+                    <CgCloseR className={style.close} onClick={ CloseModal }/>
 
-                    <img src="./src/assets/Perfil.jpeg"/>
+                    <img className={style.imageModal} src="./src/assets/Perfil.jpeg"/>
 
                 </div>
 
