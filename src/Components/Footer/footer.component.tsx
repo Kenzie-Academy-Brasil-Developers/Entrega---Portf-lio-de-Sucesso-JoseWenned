@@ -8,7 +8,7 @@ export const Footer = () => {
                 <div className={style.containerFooter}>
                     <div className={style.containerPrimary}>
                         <h2 className={style.titleThank}>Thank you!</h2>
-                        <p className={style.paragraph}>Follow me on my social metworks and lets's talk.</p>
+                        <p className={style.paragraph}>Follow me on my social networks and lets's talk.</p>
                     </div>
 
                     <div className={style.containerSecond}>
