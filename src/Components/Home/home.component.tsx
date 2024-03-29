@@ -22,7 +22,7 @@ export const Home = () => {
                 <div className={style.containerPrimary}>
 
                     <div className={style.containerSecond}>
-                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg" onClick={ openModal }/>
+                        <img className={style.imageProfile} src="./src/assets/Perfil2.JPG" onClick={ openModal }/>
                         <h1 className={style.titleName}>Hello, my name is José Wenned</h1>
                     </div>
 
