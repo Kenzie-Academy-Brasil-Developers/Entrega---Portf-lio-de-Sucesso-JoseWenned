@@ -6,7 +6,7 @@ export const UserContext = createContext({} as IUserContext)
 export const UserProvider = ( { children }: IUserProvidersProps) => {
 
     const [category, setCategory] = useState( "All projects" );
-    const [modalOpen, setModalOpen] = useState ( false )
+    const [isModal, setModal] = useState ( false )
 
     // Function for copy text E-mail:
 
@@ -94,20 +94,6 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
     const handleOpenLink = ( link: string ) => {
         window.open( link, "_blank" );
     };
-
-    // function access modal
-
-    const openModal = () => {
-
-        setModalOpen(!modalOpen)
-
-    }
-
-    const closeModal = () => {
-
-        setModalOpen(false)
-
-    }
     
     return(
         <UserContext.Provider value={{
@@ -118,8 +104,8 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             setCategory,
             sumProjects,
             handleOpenLink,
-            openModal,
-            closeModal
+            isModal,
+            setModal
         }}>
             { children }
         </UserContext.Provider>
