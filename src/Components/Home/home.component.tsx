@@ -64,7 +64,7 @@ export const Home = () => {
 
                             <FaFileCode className={style.icons}/>
                             <span className={style.numberExperience}>{sumProjects()}</span>
-                            <p className={style.text}>Finished Projects</p>
+                            <p className={style.text}>Finished projects</p>
 
                         </div>
                         
