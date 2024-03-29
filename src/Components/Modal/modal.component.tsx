@@ -1,6 +1,16 @@
+import { useContext } from "react";
 import { CgCloseR } from "react-icons/cg";
+import { UserContext } from "../../Providers/userContext.provider";
 
 export const Modal = () => {
+
+    const { setModal } = useContext( UserContext )
+
+    const CloseModal = () => {
+
+        setModal( false )
+
+    }
 
     return(
 
@@ -10,7 +20,7 @@ export const Modal = () => {
 
                 <div>
 
-                    <CgCloseR />
+                    <CgCloseR onClick={ CloseModal }/>
 
                     <img src="./src/assets/Perfil.jpeg"/>
 

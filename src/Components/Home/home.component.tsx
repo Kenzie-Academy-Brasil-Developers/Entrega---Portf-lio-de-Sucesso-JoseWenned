@@ -7,7 +7,13 @@ import { FaFileCode } from "react-icons/fa6";
 
 export const Home = () => {
 
-    const { handleDownloadCv, sumProjects } = useContext( UserContext )
+    const { handleDownloadCv, sumProjects, setModal } = useContext( UserContext )
+
+    const openModal = () => {
+
+        setModal( true )
+
+    }
 
     return(
         <>
@@ -16,7 +22,7 @@ export const Home = () => {
                 <div className={style.containerPrimary}>
 
                     <div className={style.containerSecond}>
-                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg"/>
+                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg" onClick={ openModal }/>
                         <h1 className={style.titleName}>Hello, my name is José Wenned</h1>
                     </div>
 
