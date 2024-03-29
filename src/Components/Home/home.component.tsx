@@ -4,7 +4,6 @@ import style from "./style.module.scss"
 import { IoIosBriefcase } from "react-icons/io";
 import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
-import { CgCloseR } from "react-icons/cg";
 
 export const Home = () => {
 
