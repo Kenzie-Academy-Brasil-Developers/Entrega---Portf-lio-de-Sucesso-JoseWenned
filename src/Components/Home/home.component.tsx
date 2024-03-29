@@ -8,7 +8,7 @@ import { CgCloseR } from "react-icons/cg";
 
 export const Home = () => {
 
-    const { handleDownloadCv, sumProjects, openModal, closeModal } = useContext( UserContext )
+    const { handleDownloadCv, sumProjects } = useContext( UserContext )
 
     return(
         <>
@@ -16,12 +16,8 @@ export const Home = () => {
 
                 <div className={style.containerPrimary}>
 
-                    <div id="modal" className={style.modal}>
-                        <CgCloseR className={style.closeModal} id="closeModal"/>
-                    </div>
-
                     <div className={style.containerSecond}>
-                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg" id="myImg"/>
+                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg"/>
                         <h1 className={style.titleName}>Hello, my name is José Wenned</h1>
                     </div>
 
