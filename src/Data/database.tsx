@@ -53,9 +53,52 @@ export const experiences = [
         date: "jan 2023 - jan 1024"
     },
 
+    {   
+        id: 1,
+        company: "Kilpolpas",
+        office: "Develop full stack",
+        date: "jan 2023 - jan 1024"
+    },
+
+    {   
+        id: 1,
+        company: "Kilpolpas",
+        office: "Develop full stack",
+        date: "jan 2023 - jan 1024"
+    },
+
+    {   
+        id: 1,
+        company: "Kilpolpas",
+        office: "Develop full stack",
+        date: "jan 2023 - jan 1024"
+    },
+
+
 ]
 
 export const educations = [
+
+    {   
+        id: 1,
+        intitution: "Kenzie Academy Brasil",
+        training: "Develop full stack",
+        date: "jan 2023 - jan 2024"
+    },
+
+    {   
+        id: 1,
+        intitution: "Kenzie Academy Brasil",
+        training: "Develop full stack",
+        date: "jan 2023 - jan 2024"
+    },
+
+    {   
+        id: 1,
+        intitution: "Kenzie Academy Brasil",
+        training: "Develop full stack",
+        date: "jan 2023 - jan 2024"
+    },
 
     {   
         id: 1,
