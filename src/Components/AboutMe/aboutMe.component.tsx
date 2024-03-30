@@ -84,11 +84,13 @@ export const AboutMe = () => {
 
                 <h2 className={style.titleTwo}>My qualifications</h2>
 
-                <div>
+                <div className={style.containerSubThree}>
 
-                    <div>
+                    <div className={style.containerSubInformationThree}>
 
-                        <h3 className={style.titleThree}>Experience</h3>
+                        <div className={style.containerTitleSkills}>
+                            <h3 className={style.titleThree}>Experience</h3>
+                        </div>
 
                         <ul className={style.containerList}>
                             {experiences.map((experience, index) => (
@@ -113,33 +115,35 @@ export const AboutMe = () => {
 
                     </div>
 
-                </div>
+                    <div className={style.containerSubInformationThree}>
 
-                <div>
+                        <div className={style.containerTitleSkills}>
+                            <h3 className={style.titleThree}>Education</h3>
+                        </div>
 
-                    <h3 className={style.titleThree}>Education</h3>
+                        <ul className={style.containerList}>
+                            {educations.map((education, index) => (
+                                <li className={style.containerCard} key={index}>
 
-                    <ul className={style.containerList}>
-                        {educations.map((education, index) => (
-                            <li className={style.containerCard} key={index}>
+                                    <div className={style.containerSubCard}>
+                                        <FaSchoolFlag className={style.iconsCardExperience}/>
+                                        <p className={style.textCardExperience}>{education.intitution}</p>
+                                    </div>
+                                    <div className={style.containerSubCard}>
+                                        <RiGraduationCapFill className={style.iconsCardExperience}/>
+                                        <p className={style.textCardExperience}>{education.training}</p>
+                                    </div>
+                                    <div className={style.containerSubCard}>
+                                        <BsCalendar2DateFill className={style.iconsCardExperience}/>
+                                        <p className={style.textCardExperience}>{education.date}</p>
+                                    </div>
 
-                                <div className={style.containerSubCard}>
-                                    <FaSchoolFlag className={style.iconsCardExperience}/>
-                                    <p className={style.textCardExperience}>{education.intitution}</p>
-                                </div>
-                                <div className={style.containerSubCard}>
-                                    <RiGraduationCapFill className={style.iconsCardExperience}/>
-                                    <p className={style.textCardExperience}>{education.training}</p>
-                                </div>
-                                <div className={style.containerSubCard}>
-                                    <BsCalendar2DateFill className={style.iconsCardExperience}/>
-                                    <p className={style.textCardExperience}>{education.date}</p>
-                                </div>
+                                </li>
+                            ))}
+                        </ul>
 
-                            </li>
-                        ))}
-                    </ul>
-
+                    </div>
+                
                 </div>
 
             </section>
@@ -148,31 +152,35 @@ export const AboutMe = () => {
 
                 <h2 className={style.titleTwo}>My skills set</h2>
 
-                <div>
+                <div className={style.containerSubFour}>
 
-                    <h3 className={style.titleThree}>Skills</h3>
+                    <div>
 
-                    <ul className={style.containerListSkills}>
-                        {skills.map((skill, index) => (
-                            <li key={index}>
-                                <img className={style.imageIconLanguage} src={skill.image}/>
-                            </li>
-                        ))}
-                    </ul>
+                        <h3 className={style.titleThree}>Skills</h3>
 
-                </div>
+                        <ul className={style.containerListSkills}>
+                            {skills.map((skill, index) => (
+                                <li key={index}>
+                                    <img className={style.imageIconLanguage} src={skill.image}/>
+                                </li>
+                            ))}
+                        </ul>
 
-                <div>
+                    </div>
 
-                    <h3 className={style.titleThree}>Tools</h3>
+                    <div>
 
-                    <ul className={style.containerListSkills}>
-                        {tools.map((tool, index) => (
-                            <li key={index}>
-                                <img className={style.imageIconTools} src={tool.image}/>
-                            </li>
-                        ))}
-                    </ul>
+                        <h3 className={style.titleThree}>Tools</h3>
+
+                        <ul className={style.containerListSkills}>
+                            {tools.map((tool, index) => (
+                                <li key={index}>
+                                    <img className={style.imageIconTools} src={tool.image}/>
+                                </li>
+                            ))}
+                        </ul>
+
+                    </div>
 
                 </div>
 
