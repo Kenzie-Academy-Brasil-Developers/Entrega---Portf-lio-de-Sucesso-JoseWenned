@@ -10,8 +10,11 @@ import { FaSchoolFlag } from "react-icons/fa6";
 import style from "./style.module.scss"
 
 export const AboutMe = () => {
+
     return(
+
         <>
+
             <section className={style.section}>
 
                 <div className={style.containerSubSection}>
@@ -24,161 +27,184 @@ export const AboutMe = () => {
 
                         <p className={style.paragraphTwo}>Driven by an insatiable curiosity, I dedicate myself to the craft of coding, engaging in new projects and continually learning.</p>
 
-                        <h2 className={style.titleTwo}>Personal information</h2>
-
-                        <div className={style.containerInformationPersonal}>
-
-                            <FaUser  className={style.iconsInformationPersonal}/>
-                            <p className={style.textInformationPersonal}>José Wenned</p>
-
-                        </div>
-
-                        <div className={style.containerInformationPersonal}> 
-
-                            <RiGraduationCapFill className={style.iconsInformationPersonal}/>
-                            <p className={style.textInformationPersonal}>Develop full stack</p>
-
-                        </div>
-
-                        <div className={style.containerInformationPersonal}>
-
-                            <MdEmail className={style.iconsInformationPersonal}/>
-                            <p className={style.textInformationPersonal}>wennedchaves1997@gmail.com</p>
-
-                        </div>
-
-                        <div className={style.containerInformationPersonal}>
-
-                            <FaHouseUser className={style.iconsInformationPersonal}/>
-                            <p className={style.textInformationPersonal}>Quixeré, Ceará, Brasil</p>
-                            
-                        </div>
-
-                        <div className={style.containerInformationLanguage}>
-
-                            <h3 className={style.titleLanguage}>Languages skills</h3>
-
-                            <p className={style.textLanguage}>Portuguese (Native)</p>
-                            <p className={style.textLanguage}>English (basic)</p>
-
-                        </div>
-
-                    </div>
-
-                    <div>
-
-                        <h2 className={style.titleTwo}>My qualifications</h2>
-
-                        <div>
-
-                            <h3 className={style.titleThree}>Experience</h3>
-
-                            <ul className={style.containerList}>
-                                {experiences.map((experience, index) => (
-                                    <li className={style.containerCard} key={index}>
-
-                                        <div className={style.containerSubCard}>
-                                            <HiOfficeBuilding className={style.iconsCardExperience} />
-                                            <p className={style.textCardExperience}>{experience.company}</p>
-                                        </div>
-                                        <div className={style.containerSubCard}>
-                                            <GiOfficeChair className={style.iconsCardExperience}/>
-                                            <p className={style.textCardExperience}>{experience.office}</p>
-                                        </div>
-                                        <div className={style.containerSubCard}>
-                                            <BsCalendar2DateFill className={style.iconsCardExperience}/>
-                                            <p className={style.textCardExperience}>{experience.date}</p>
-                                        </div>
-
-                                    </li>
-                                ))}
-                            </ul>
-
-                        </div>
-
-                        <div>
-
-                            <h3 className={style.titleThree}>Education</h3>
-
-                            <ul className={style.containerList}>
-                                {educations.map((education, index) => (
-                                    <li className={style.containerCard} key={index}>
-
-                                        <div className={style.containerSubCard}>
-                                            <FaSchoolFlag className={style.iconsCardExperience}/>
-                                            <p className={style.textCardExperience}>{education.intitution}</p>
-                                        </div>
-                                        <div className={style.containerSubCard}>
-                                            <RiGraduationCapFill className={style.iconsCardExperience}/>
-                                            <p className={style.textCardExperience}>{education.training}</p>
-                                        </div>
-                                        <div className={style.containerSubCard}>
-                                            <BsCalendar2DateFill className={style.iconsCardExperience}/>
-                                            <p className={style.textCardExperience}>{education.date}</p>
-                                        </div>
-
-                                    </li>
-                                ))}
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                    <div>
-
-                        <h2 className={style.titleTwo}>My skills set</h2>
-
-                        <h3 className={style.titleThree}>Skills</h3>
-
-                        <ul className={style.containerListSkills}>
-                            {skills.map((skill, index) => (
-                                <li key={index}>
-                                    <img className={style.imageIconLanguage} src={skill.image}/>
-                                </li>
-                            ))}
-                        </ul>
-
-                    </div>
-
-                    <div>
-
-                        <h3 className={style.titleThree}>Tools</h3>
-
-                        <ul className={style.containerListSkills}>
-                            {tools.map((tool, index) => (
-                                <li key={index}>
-                                    <img className={style.imageIconTools} src={tool.image}/>
-                                </li>
-                            ))}
-                        </ul>
-
-                    </div>
-
-                    <h2 className={style.titleTwo}>My services</h2>
-
-                    <div className={style.containerMainServices}>
-
-                        <div className={style.containerServices}>
-                            <h3 className={style.titleThree}>Develop Front-End</h3>
-                            <p className={style.paragraphServices}>I worked on comprehensive solutions that cover front-end. I can create robust and integrated applications, providing a complete user experience.</p>
-                        </div>
-
-                        <div className={style.containerServices}>
-                            <h3 className={style.titleThree}>Develop Back-End</h3>
-                            <p className={style.paragraphServices}>My passion for back-end development led me to build solid foundations for applications, ensuring performance, scalability and security.</p>
-                        </div>
-
-                        <div className={style.containerServices}> 
-                            <h3 className={style.titleThree}>Personal identity</h3>
-                            <p className={style.paragraphServices}>My enthusiasm for continuous learning fuels my search for new challenges and innovative solutions in programming.</p>
-                        </div>
-
                     </div>
 
                 </div>
 
             </section>
+
+            <section className={style.section}>
+
+                <div className={style.containerSectionTwo}>
+
+                    <h2 className={style.titleTwo}>Personal information</h2>
+
+                    <div className={style.containerInformationPersonal}>
+
+                        <FaUser  className={style.iconsInformationPersonal}/>
+                        <p className={style.textInformationPersonal}>José Wenned</p>
+
+                    </div>
+
+                    <div className={style.containerInformationPersonal}> 
+
+                        <RiGraduationCapFill className={style.iconsInformationPersonal}/>
+                        <p className={style.textInformationPersonal}>Develop full stack</p>
+
+                    </div>
+
+                    <div className={style.containerInformationPersonal}>
+
+                        <MdEmail className={style.iconsInformationPersonal}/>
+                        <p className={style.textInformationPersonal}>wennedchaves1997@gmail.com</p>
+
+                    </div>
+
+                    <div className={style.containerInformationPersonal}>
+
+                        <FaHouseUser className={style.iconsInformationPersonal}/>
+                        <p className={style.textInformationPersonal}>Quixeré, Ceará, Brasil</p>
+
+                    </div>
+
+                    <div className={style.containerInformationLanguage}>
+
+                        <h3 className={style.titleLanguage}>Languages skills</h3>
+
+                        <p className={style.textLanguage}>Portuguese (Native)</p>
+                        <p className={style.textLanguage}>English (basic)</p>
+
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <section className={style.sectionThree}>
+
+                <h2 className={style.titleTwo}>My qualifications</h2>
+
+                <div>
+
+                    <div>
+
+                        <h3 className={style.titleThree}>Experience</h3>
+
+                        <ul className={style.containerList}>
+                            {experiences.map((experience, index) => (
+                                <li className={style.containerCard} key={index}>
+
+                                    <div className={style.containerSubCard}>
+                                        <HiOfficeBuilding className={style.iconsCardExperience} />
+                                        <p className={style.textCardExperience}>{experience.company}</p>
+                                    </div>
+                                    <div className={style.containerSubCard}>
+                                        <GiOfficeChair className={style.iconsCardExperience}/>
+                                        <p className={style.textCardExperience}>{experience.office}</p>
+                                    </div>
+                                    <div className={style.containerSubCard}>
+                                        <BsCalendar2DateFill className={style.iconsCardExperience}/>
+                                        <p className={style.textCardExperience}>{experience.date}</p>
+                                    </div>
+
+                                </li>
+                            ))}
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <h3 className={style.titleThree}>Education</h3>
+
+                    <ul className={style.containerList}>
+                        {educations.map((education, index) => (
+                            <li className={style.containerCard} key={index}>
+
+                                <div className={style.containerSubCard}>
+                                    <FaSchoolFlag className={style.iconsCardExperience}/>
+                                    <p className={style.textCardExperience}>{education.intitution}</p>
+                                </div>
+                                <div className={style.containerSubCard}>
+                                    <RiGraduationCapFill className={style.iconsCardExperience}/>
+                                    <p className={style.textCardExperience}>{education.training}</p>
+                                </div>
+                                <div className={style.containerSubCard}>
+                                    <BsCalendar2DateFill className={style.iconsCardExperience}/>
+                                    <p className={style.textCardExperience}>{education.date}</p>
+                                </div>
+
+                            </li>
+                        ))}
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <section className={style.sectionFour}>
+
+                <h2 className={style.titleTwo}>My skills set</h2>
+
+                <div>
+
+                    <h3 className={style.titleThree}>Skills</h3>
+
+                    <ul className={style.containerListSkills}>
+                        {skills.map((skill, index) => (
+                            <li key={index}>
+                                <img className={style.imageIconLanguage} src={skill.image}/>
+                            </li>
+                        ))}
+                    </ul>
+
+                </div>
+
+                <div>
+
+                    <h3 className={style.titleThree}>Tools</h3>
+
+                    <ul className={style.containerListSkills}>
+                        {tools.map((tool, index) => (
+                            <li key={index}>
+                                <img className={style.imageIconTools} src={tool.image}/>
+                            </li>
+                        ))}
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <section className={style.sectionFive}>
+
+                <h2 className={style.titleTwo}>My services</h2>
+
+                <div className={style.containerMainServices}>
+
+                    <div className={style.containerServices}>
+                        <h3 className={style.titleThree}>Develop Front-End</h3>
+                        <p className={style.paragraphServices}>I worked on comprehensive solutions that cover front-end. I can create robust and integrated applications, providing a complete user experience.</p>
+                    </div>
+
+                    <div className={style.containerServices}>
+                        <h3 className={style.titleThree}>Develop Back-End</h3>
+                        <p className={style.paragraphServices}>My passion for back-end development led me to build solid foundations for applications, ensuring performance, scalability and security.</p>
+                    </div>
+
+                    <div className={style.containerServices}> 
+                        <h3 className={style.titleThree}>Personal identity</h3>
+                        <p className={style.paragraphServices}>My enthusiasm for continuous learning fuels my search for new challenges and innovative solutions in programming.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
         </>
+
     )
+
 }
