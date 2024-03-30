@@ -21,9 +21,49 @@
 
 }
 
+.sectionThree {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-gray-5);
+
+}
+
+.sectionFour {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-gray-5);
+
+}
+
+.sectionFive {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-gray-5);
+
+}
+
 .containerSubSection {
 
     width: 1250px;
+
+}
+
+.containerSectionTwo {
+
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -294,7 +334,34 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { 
+
+    .sectionThree{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionFour {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionFive {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
 
     .containerList {
 
