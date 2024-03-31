@@ -51,7 +51,6 @@
     color: var(--color-gray-0);
 
     margin-top: 15px;
-
 };
 
 .containerSecond {
@@ -79,40 +78,6 @@
 .imageFooter:hover {
 
     color: var(--color-gray-3);
-
-};
-
-@media screen and (min-width: 768px) {
-
-    .footer {
-
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: center;
-
-        
-    };
-
-    .containerPrimary {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    };
-
-};
-
-@media screen and (min-width: 1024px) {
-
-    .containerSecond{
-        margin-right: 5px;
-    };
-
-    .paragraph{
-        margin-left: 15px;
-    };
 
 };
 
