@@ -121,10 +121,16 @@
 
 .copy {
 
-    color: var(--color-gray-2);
+    color: var(--color-gray-1);
     margin-left: 5px;
 
     cursor: pointer;
+
+}
+
+.copy:hover {
+
+    color: var(--color-gray-2);
 
 }
 
@@ -151,6 +157,14 @@
 
     text-decoration: none;
     cursor: pointer;
+
+}
+
+.anchor:focus,
+.anchor:hover {
+
+    color: var(--color-gray-2);
+    text-decoration: underline;
 
 }
 

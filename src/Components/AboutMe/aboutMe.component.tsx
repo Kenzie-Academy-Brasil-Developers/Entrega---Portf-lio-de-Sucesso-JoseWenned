@@ -49,7 +49,7 @@ export const AboutMe = () => {
                     <div className={style.containerInformationPersonal}> 
 
                         <RiGraduationCapFill className={style.iconsInformationPersonal}/>
-                        <p className={style.textInformationPersonal}>Develop full stack</p>
+                        <p className={style.textInformationPersonal}>Developer full stack</p>
 
                     </div>
 
