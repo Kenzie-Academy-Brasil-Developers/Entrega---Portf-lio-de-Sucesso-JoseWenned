@@ -9,22 +9,22 @@
 
 }
 
+.containerPrimary {
+
+    height: 579px;
+    max-width: 90%;
+
+}
+
 .titleDev {
 
     color: var(--color-primary);
 
     font-family: var(--font-primary);
-    font-size: var(--title-1);
-    font-weight: var(--text-bold-4);
+    font-size: var(--title-3);
+    font-weight: var(--text-bold-3);
 
-    margin-bottom: 45px;
-
-}
-
-.containerPrimary {
-
-    height: 579px;
-    max-width: 90%;
+    margin-bottom: 35px;
 
 }
 
