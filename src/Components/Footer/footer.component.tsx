@@ -1,4 +1,7 @@
 import style from "./style.module.scss"
+import { BsFacebook } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 export const Footer = () => {
     return(
@@ -12,9 +15,9 @@ export const Footer = () => {
                     </div>
 
                     <div className={style.containerSecond}>
-                        <a href={"https://www.facebook.com/profile.php?id=100004807723751"} target="blank"><img className={style.imageFooter} src="./src/assets/facebook.png" alt="facebook.png"/></a>
-                        <a href={"https://www.instagram.com/j.wenned?igsh=MW5henc0Z2E3eDhqag%3D%3D&utm_source=qr"} target="blank"><img className={style.imageFooter} src="./src/assets/instagram.png" alt="instagram.png"/></a>
-                        <a href={"https://www.linkedin.com/in/jos%C3%A9-wenned-chaves-de-sousa-148554165/"} target="blank"><img className={style.imageFooter} src="./src/assets/linkedin.png" alt="linkendin.png"/></a>
+                        <BsFacebook className={style.imageFooter}/>
+                        <BsInstagram className={style.imageFooter}/>
+                        <BsLinkedin className={style.imageFooter}/>
                     </div>
                 </div>
                 
