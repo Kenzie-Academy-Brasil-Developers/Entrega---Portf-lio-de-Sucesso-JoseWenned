@@ -5,6 +5,7 @@ import { IoIosBriefcase } from "react-icons/io";
 import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { FiDownload } from "react-icons/fi";
 
 export const Home = () => {
 
@@ -39,7 +40,7 @@ export const Home = () => {
 
                             <Link to={"/ProjectsPage"}><button className={style.button}>See projects</button></Link>
 
-                            <button className={style.button} type="submit" onClick={ handleDownloadCv }>Donwload CV</button>
+                            <button className={style.button} type="submit" onClick={ handleDownloadCv }>Donwload CV <FiDownload /></button>
 
                         </div>
                         
