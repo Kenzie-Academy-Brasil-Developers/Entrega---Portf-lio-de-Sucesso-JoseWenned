@@ -38,9 +38,9 @@ export const Home = () => {
 
                         <div className={style.containerSubThird}>
 
-                            <Link to={"/ProjectsPage"}><button className={style.button}>See projects</button></Link>
+                            <Link to={"/ProjectsPage"}><button className={style.button}>Projects</button></Link>
 
-                            <button className={style.button} type="submit" onClick={ handleDownloadCv }>Donwload CV <FiDownload /></button>
+                            <button className={style.button} type="submit" onClick={ handleDownloadCv }>Donwload CV <FiDownload className={style.iconDownload}/></button>
 
                         </div>
                         
