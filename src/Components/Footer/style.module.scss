@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
 
-}
+};
 
 .containerFooter {
 
@@ -19,7 +19,7 @@
     margin-right: 5px;
     margin-left: 5px;
 
-}
+};
 
 .containerPrimary {
 
@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     
-}
+};
 
 .titleThank {
 
@@ -40,7 +40,7 @@
 
     margin-top: 12px;
 
-}
+};
 
 .paragraph {
 
@@ -52,7 +52,7 @@
 
     margin-top: 15px;
 
-}
+};
 
 .containerSecond {
 
@@ -61,16 +61,26 @@
     align-items: center;
 
     margin-top: 20px;
-    gap: 8px;
+    gap: 20px;
 
-}
+};
 
 .imageFooter {
 
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
 
-}
+    color: var(--color-gray-2);
+
+    cursor: pointer;
+
+};
+
+.imageFooter:hover {
+
+    color: var(--color-gray-3);
+
+};
 
 @media screen and (min-width: 768px) {
 
@@ -82,7 +92,7 @@
        align-items: center;
 
         
-    }
+    };
 
     .containerPrimary {
 
@@ -90,36 +100,19 @@
         justify-content: center;
         align-items: center;
 
-    }
+    };
 
-}
+};
 
 @media screen and (min-width: 1024px) {
 
-    .containerFooter{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .containerPrimary{
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-
-        margin-left: 5px;
-
-    }
-
     .containerSecond{
         margin-right: 5px;
-    }
+    };
 
     .paragraph{
         margin-left: 15px;
-    }
+    };
 
-}
+};
 
