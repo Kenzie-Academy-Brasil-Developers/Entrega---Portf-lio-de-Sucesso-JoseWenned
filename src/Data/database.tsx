@@ -3,7 +3,7 @@ export const projects = [
     {
         id: 1,
         image: "./src/assets/Projeto M1 - E-commerce de vestuário.png",
-        name: "Projeto M1 - E-commerce de vestuário",
+        name: "Projeto M1 - Clothing e-commerce",
         language: "Html, Css3, Javascript",
         description: `O projeto Front End se resume à criação de um layout de E-commerce baseado em um guia de estilo. 
         O estilo obrigatório nesse sentido envolve a criação de novos cartões para o cenário de vendas, acoplar produtos ao carrinho, 
@@ -18,7 +18,8 @@ export const projects = [
 
 export const experiences = [
 
-    // {
+    // {    
+    //     id: 1
     //     company: "Kipolpas",
     //     office: "Developer Full Stack",
     //     date: "01/04/2024"
@@ -29,10 +30,12 @@ export const experiences = [
 export const educations = [
 
     {   
+
         id: 1,
         intitution: "Kenzie Academy Brasil",
-        training: "Develop full stack",
+        training: "Developer full stack",
         date: "jan 2023 - jan 2024"
+
     },
 
 ]
