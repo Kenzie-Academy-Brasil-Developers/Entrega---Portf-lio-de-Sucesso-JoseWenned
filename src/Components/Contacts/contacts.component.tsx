@@ -89,6 +89,12 @@ export const Contacts = () => {
                         </ul>
                     </div>
 
+                    <div>
+
+                        <img className={style.imageProjects} src="./src/assets/header-bg (2).png" alt="imageProjects"/>
+
+                    </div>
+
                 </div>
                 
             </section>
