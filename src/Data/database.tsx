@@ -119,21 +119,6 @@ export const skills = [
         image: "./src/assets/docker-svgrepo-com.png"
     },
 
-    {
-        id: 17,
-        image: "./src/assets/git-svgrepo-com.png"
-    },
-
-    {
-        id: 18,
-        image: "./src/assets/github-color-svgrepo-com.png"
-    },
-
-    {
-        id: 19,
-        image: "./src/assets/figma-svgrepo-com.png"
-    },
-
 ]
 
 export const tools = [
@@ -171,6 +156,21 @@ export const tools = [
     {
         id: 7,
         image: "./src/assets/icons8-noção-50 (1).png"
+    },
+
+    {
+        id: 8,
+        image: "./src/assets/git-svgrepo-com.png"
+    },
+
+    {
+        id: 9,
+        image: "./src/assets/github-color-svgrepo-com.png"
+    },
+
+    {
+        id: 10,
+        image: "./src/assets/figma-svgrepo-com.png"
     },
 
 ]
