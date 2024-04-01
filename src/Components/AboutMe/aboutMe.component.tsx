@@ -207,12 +207,12 @@ export const AboutMe = () => {
                 <div className={style.containerMainServices}>
 
                     <div className={style.containerServices}>
-                        <h3 className={style.titleThree}>Develop Front-End</h3>
+                        <h3 className={style.titleThree}>Developer Front-End</h3>
                         <p className={style.paragraphServices}>I worked on comprehensive solutions that cover front-end. I can create robust and integrated applications, providing a complete user experience.</p>
                     </div>
 
                     <div className={style.containerServices}>
-                        <h3 className={style.titleThree}>Develop Back-End</h3>
+                        <h3 className={style.titleThree}>Developer Back-End</h3>
                         <p className={style.paragraphServices}>My passion for back-end development led me to build solid foundations for applications, ensuring performance, scalability and security.</p>
                     </div>
 
