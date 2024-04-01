@@ -190,6 +190,7 @@
 }
 
 @media screen and (min-width: 1024px) {
+
     .containerSubSection {
 
         display: flex;
@@ -201,9 +202,27 @@
 
     .containerTwoSubSection {
 
-        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        gap: 50px;
 
     }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .containerTwoSubSection {
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+    
 }
 
 @media screen and (max-width: 1440px) {
@@ -215,3 +234,4 @@
     }
 
 }
+
