@@ -222,6 +222,44 @@
 
 }
 
+.containerEmpty {
+
+    border-radius: 8px;
+    width: 300px;
+    height: 100px;
+
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imageEmpty {
+
+    width: 40px;
+    height: 40px;
+
+    color: var(--color-gray-2);
+
+}
+
+.paragraphEmpty {
+
+    color: var(--color-gray-2);
+
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
+    font-weight: var(--text-bold-3);
+
+    margin-top: 20px;
+
+}
+
 .containerCard {
 
     border: 2px solid var(--color-gray-2);

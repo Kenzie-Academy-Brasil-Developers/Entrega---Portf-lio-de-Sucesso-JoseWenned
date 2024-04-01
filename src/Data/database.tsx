@@ -18,7 +18,11 @@ export const projects = [
 
 export const experiences = [
 
-   
+    // {
+    //     company: "Kipolpas",
+    //     office: "Developer Full Stack",
+    //     date: "01/04/2024"
+    // }
 
 ]
 

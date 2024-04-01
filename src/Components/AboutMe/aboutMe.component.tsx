@@ -7,6 +7,7 @@ import { GiOfficeChair } from "react-icons/gi";
 import { HiOfficeBuilding } from "react-icons/hi";
 import { BsCalendar2DateFill } from "react-icons/bs";
 import { FaSchoolFlag } from "react-icons/fa6";
+import { ImFileEmpty } from "react-icons/im";
 import style from "./style.module.scss"
 
 export const AboutMe = () => {
@@ -91,28 +92,41 @@ export const AboutMe = () => {
                         <div className={style.containerTitleSkills}>
                             <h3 className={style.titleThree}>Experience</h3>
                         </div>
+                        
+                        {experiences.length === 0 ?  
+                            
+                            (
 
-                        <ul className={style.containerList}>
-                            {experiences.map((experience, index) => (
-                                <li className={style.containerCard} key={index}>
+                            <div className={style.containerEmpty}>
+                                <ImFileEmpty className={style.imageEmpty}/>
+                                <p className={style.paragraphEmpty}>I do not have professional experience.</p>
+                            </div>
 
-                                    <div className={style.containerSubCard}>
-                                        <HiOfficeBuilding className={style.iconsCardExperience} />
-                                        <p className={style.textCardExperience}>{experience.company}</p>
-                                    </div>
-                                    <div className={style.containerSubCard}>
-                                        <GiOfficeChair className={style.iconsCardExperience}/>
-                                        <p className={style.textCardExperience}>{experience.office}</p>
-                                    </div>
-                                    <div className={style.containerSubCard}>
-                                        <BsCalendar2DateFill className={style.iconsCardExperience}/>
-                                        <p className={style.textCardExperience}>{experience.date}</p>
-                                    </div>
+                            ): (
 
-                                </li>
-                            ))}
-                        </ul>
+                            <ul className={style.containerList}>
+                                {experiences.map((experience, index) => (
+                                    <li className={style.containerCard} key={index}>
 
+                                        <div className={style.containerSubCard}>
+                                            <HiOfficeBuilding className={style.iconsCardExperience} />
+                                            <p className={style.textCardExperience}>{experience.company}</p>
+                                        </div>
+                                        <div className={style.containerSubCard}>
+                                            <GiOfficeChair className={style.iconsCardExperience}/>
+                                            <p className={style.textCardExperience}>{experience.office}</p>
+                                        </div>
+                                        <div className={style.containerSubCard}>
+                                            <BsCalendar2DateFill className={style.iconsCardExperience}/>
+                                            <p className={style.textCardExperience}>{experience.date}</p>
+                                        </div>
+
+                                    </li>
+                                ))}
+                            </ul>
+
+                        )}
+                        
                     </div>
 
                     <div className={style.containerSubInformationThree}>
