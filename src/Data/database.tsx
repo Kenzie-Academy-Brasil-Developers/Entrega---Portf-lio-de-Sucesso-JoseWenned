@@ -10,6 +10,28 @@ export const projects = [
         linkVercel: "https://project-nu-kenzie-jose-wenned.vercel.app/",
         category: "Frontend"
     },
+
+    {
+        id: 2,
+        image: "./src/assets/Project Burguer Kenzie.png",
+        name: "Project Burguer Kenzie",
+        language: "Html, Css3 ( SCSS ), Javascript, React",
+        description: `The Burguer Kenzie project implements features of a shopping cart using React and styling with SASS. The application consumes an API to list products, allowing you to add and remove items from the cart, with automatic calculation of totals. Responsiveness is guaranteed for a consistent experience across different devices. Using useEffect makes it easier to integrate with the API and persist cart data to localStorage. Additionally, a simple modal is implemented to detail additional information about the products. As an optional challenge, it is proposed to refine the modal's behavior with features such as closing when clicking outside or pressing "Esc". The project offers comprehensive practice in styling, API integration, state management, and event handling in React.`,
+        linkGitHub: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-template-hamburgueria-JoseWenned",
+        linkVercel: "https://react-entrega-s3-template-hamburgueria-jose-wenned-erqnro5fs.vercel.app/",
+        category: "Frontend"
+    },
+
+    {
+        id: 3,
+        image: "./src/assets/Project Burguer Kenzie.png",
+        name: "Project Kenzie Hub",
+        language: "Html, Css3 ( SCSS ), Javascript, React",
+        description: `The Burguer Kenzie project implements features of a shopping cart using React and styling with SASS. The application consumes an API to list products, allowing you to add and remove items from the cart, with automatic calculation of totals. Responsiveness is guaranteed for a consistent experience across different devices. Using useEffect makes it easier to integrate with the API and persist cart data to localStorage. Additionally, a simple modal is implemented to detail additional information about the products. As an optional challenge, it is proposed to refine the modal's behavior with features such as closing when clicking outside or pressing "Esc". The project offers comprehensive practice in styling, API integration, state management, and event handling in React.`,
+        linkGitHub: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-template-hamburgueria-JoseWenned",
+        linkVercel: "https://react-entrega-s3-template-hamburgueria-jose-wenned-erqnro5fs.vercel.app/",
+        category: "Frontend"
+    },
     
 ];
 
