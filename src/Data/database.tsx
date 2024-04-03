@@ -2,15 +2,12 @@ export const projects = [
 
     {
         id: 1,
-        image: "./src/assets/Projeto M1 - E-commerce de vestuário.png",
-        name: "Projeto M1 - Clothing e-commerce",
-        language: "Html, Css3, Javascript",
-        description: `O projeto Front End se resume à criação de um layout de E-commerce baseado em um guia de estilo. 
-        O estilo obrigatório nesse sentido envolve a criação de novos cartões para o cenário de vendas, acoplar produtos ao carrinho, 
-        remover produtos do carrinho e a contagem de unidades totais e preço. Ambas as navegações superiores e barra de pesquisa devem funcionar,
-        permitindo o filtro sobre as categorias selecionadas ou pesquisadas.`,
-        linkGitHub: "https://github.com/Kenzie-Academy-Brasil-Developers/M1-Ecommerce-JoseWenned",
-        linkVercel: "link 2",
+        image: "./src/assets/Project Nu Kenzie.png",
+        name: "Project Nu Kenzie",
+        language: "Html, Css3 ( SCSS ), Javascript, React",
+        description: `Nu Kenzie is a React application for managing expenses. The components were structured and styled with SASS. The logic uses state to capture transactions, dynamically render them, and calculate the total. Features include add/delete transactions and total calculation. Ternaries are used to improve user experience. The project promotes the practice of componentization, styling and state manipulation in React, providing an intuitive and efficient interface for financial control.`,
+        linkGitHub: "https://github.com/Kenzie-Academy-Brasil-Developers/Project-NuKenzie-JoseWenned",
+        linkVercel: "https://project-nu-kenzie-jose-wenned.vercel.app/",
         category: "Frontend"
     },
     
