@@ -24,12 +24,23 @@ export const projects = [
 
     {
         id: 3,
-        image: "./src/assets/Project Burguer Kenzie.png",
+        image: "./src/assets/Project Kenzie Hub.png",
         name: "Project Kenzie Hub",
-        language: "Html, Css3 ( SCSS ), Javascript, React",
-        description: `The Burguer Kenzie project implements features of a shopping cart using React and styling with SASS. The application consumes an API to list products, allowing you to add and remove items from the cart, with automatic calculation of totals. Responsiveness is guaranteed for a consistent experience across different devices. Using useEffect makes it easier to integrate with the API and persist cart data to localStorage. Additionally, a simple modal is implemented to detail additional information about the products. As an optional challenge, it is proposed to refine the modal's behavior with features such as closing when clicking outside or pressing "Esc". The project offers comprehensive practice in styling, API integration, state management, and event handling in React.`,
-        linkGitHub: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-template-hamburgueria-JoseWenned",
-        linkVercel: "https://react-entrega-s3-template-hamburgueria-jose-wenned-erqnro5fs.vercel.app/",
+        language: "Html, Css3 ( Styled-Components ), Javascript, React",
+        description: `This project is a user authentication and management system in React, with routes for Login, Registration and Dashboard. The components are structured in a modular way, facilitating development and maintenance. Using React Router Dom, routes are configured to direct the user to the corresponding pages. Forms are managed with React Hook Form, including field validations. The registration form requires data such as name, email, password, biography, and course module. In the contact form, you only need your email and password. Registration and login functionalities are implemented via POST requests to the appropriate routes. After successful registration, the user is redirected to the home page. Upon login, the user's state is stored and the token is saved in localStorage for future authentication. Logout reverses the login actions, clearing the user's state and removing the localStorage token, redirecting the user back to the home page. This project provides a fluid and secure experience for users, with a well-defined architecture and robust authentication features.`,
+        linkGitHub: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-JoseWenned",
+        linkVercel: "https://react-entrega-kenzie-hub-jose-wenned.vercel.app/",
+        category: "Frontend"
+    },
+
+    {
+        id: 4,
+        image: "./src/assets/Project Kenzie Movie.png",
+        name: "Project Kenzie Movie",
+        language: "Html, Css3 ( Tailwind ), Javascript, React, TypeScript",
+        description: `This project aims to create a streaming platform with different access levels for logged in and logged out users. For logged in users, there is the ability to view a variety of films, each with detailed information including genre, name, duration and average rating. Plus, they can write, edit, and delete their own reviews. Logged out users can access all screens except the rating functionality. There is an emphasis on password security and data validation. The project makes use of ContextAPI to manage the global state of the application and allows the use of style/component libraries to facilitate code development and maintenance, encouraging the exploration of new technologies by collaborators.`,
+        linkGitHub: "https://github.com/Kenzie-Academy-Brasil-Developers/M3-Project-KenzieMovie",
+        linkVercel: "https://m3-project-kenzie-movie-lewb5mvh3-josewenneds-projects.vercel.app/",
         category: "Frontend"
     },
     
