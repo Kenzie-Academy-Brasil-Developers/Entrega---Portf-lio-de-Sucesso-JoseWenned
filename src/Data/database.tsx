@@ -158,12 +158,12 @@ export const projects = [
 
 export const experiences = [
 
-    // {    
-    //     id: 1
-    //     company: "Kipolpas",
-    //     office: "Developer Full Stack",
-    //     date: "01/04/2024"
-    // }
+    {    
+        id: 1,
+        company: "",
+        office: "",
+        date: ""
+    }
 
 ]
 
