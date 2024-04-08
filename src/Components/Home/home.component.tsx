@@ -6,6 +6,7 @@ import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
+import minhaImage from "../../../src/assets/Perfil.jpeg"
 
 export const Home = () => {
 
@@ -26,7 +27,7 @@ export const Home = () => {
                     <h1 className={style.titleDev}>DEVELOPER FULL STACK</h1>
 
                     <div className={style.containerSecond}>
-                        <img className={style.imageProfile} src="./src/assets/Perfil2.JPG" onClick={ openModal }/>
+                        <img className={style.imageProfile} src={minhaImage} onClick={ openModal }/>
                         <p className={style.titleName}>Hello, my name is José Wenned</p>
                     </div>
 
