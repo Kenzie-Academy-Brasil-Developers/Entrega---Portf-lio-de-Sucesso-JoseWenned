@@ -6,7 +6,7 @@ import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
-import minhaImage from "../../src/assets/Perfil.jpeg";
+import minhaImage from "../../assets/Perfil.jpeg";
 import imageCart from "../../assets/header-bg.png.png"
 
 export const Home = () => {
