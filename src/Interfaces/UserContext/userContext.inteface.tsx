@@ -26,6 +26,8 @@ export interface IUserContext {
     setCategory: React.Dispatch<React.SetStateAction<string>>
     sumProjects: () => number
     handleOpenLink: ( link: string ) => void
+    isModal: any
+    setModal: (boolean: boolean) => void
 
 }
 

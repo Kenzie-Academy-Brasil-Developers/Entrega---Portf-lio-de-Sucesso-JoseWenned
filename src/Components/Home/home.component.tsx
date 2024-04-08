@@ -4,10 +4,18 @@ import style from "./style.module.scss"
 import { IoIosBriefcase } from "react-icons/io";
 import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import { FiDownload } from "react-icons/fi";
 
 export const Home = () => {
 
-    const { handleDownloadCv, sumProjects } = useContext( UserContext )
+    const { handleDownloadCv, sumProjects, setModal } = useContext( UserContext )
+
+    const openModal = () => {
+
+        setModal( true )
+
+    }
 
     return(
         <>
@@ -15,9 +23,11 @@ export const Home = () => {
 
                 <div className={style.containerPrimary}>
 
+                    <h1 className={style.titleDev}>DEVELOPER FULL STACK</h1>
+
                     <div className={style.containerSecond}>
-                        <img className={style.imageProfile} src="./src/assets/Perfil.jpeg"/>
-                        <h1 className={style.titleName}>Hello, my name is José Wenned</h1>
+                        <img className={style.imageProfile} src="./src/assets/Perfil2.JPG" onClick={ openModal }/>
+                        <p className={style.titleName}>Hello, my name is José Wenned</p>
                     </div>
 
                     <div className={style.containerThird}>
@@ -28,9 +38,9 @@ export const Home = () => {
 
                         <div className={style.containerSubThird}>
 
-                            <a href="https://github.com/JoseWenned?tab=projects" target="blank"><button className={style.button}>See projects</button></a>
+                            <Link to={"/ProjectsPage"} className={style.button}>See Projects</Link>
 
-                            <button className={style.button} type="submit" onClick={ handleDownloadCv }>Donwload CV</button>
+                            <button className={style.button} type="submit" onClick={ handleDownloadCv }>Download CV <FiDownload className={style.iconDownload}/></button>
 
                         </div>
                         
@@ -58,7 +68,7 @@ export const Home = () => {
 
                             <FaFileCode className={style.icons}/>
                             <span className={style.numberExperience}>{sumProjects()}</span>
-                            <p className={style.text}>Finished Projects</p>
+                            <p className={style.text}>Finished projects</p>
 
                         </div>
                         

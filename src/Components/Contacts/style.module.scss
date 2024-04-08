@@ -1,7 +1,7 @@
 .section {
 
     height: 690px;
-    background-color: var(--color-gray-4);
+    background-color: var(--color-gray-5);
 
     display: flex;
     justify-content: center;
@@ -121,10 +121,16 @@
 
 .copy {
 
-    color: var(--color-gray-2);
+    color: var(--color-gray-1);
     margin-left: 5px;
 
     cursor: pointer;
+
+}
+
+.copy:hover {
+
+    color: var(--color-gray-2);
 
 }
 
@@ -154,6 +160,24 @@
 
 }
 
+.anchor:focus,
+.anchor:hover {
+
+    color: var(--color-gray-2);
+    text-decoration: underline;
+
+}
+
+.imageProjects {
+
+    width: 565px;
+    height: 690px;
+
+
+    margin-left: 100px;
+
+}
+
 @media screen and (min-width: 425px) {
     .containerSubSection {
 
@@ -166,6 +190,7 @@
 }
 
 @media screen and (min-width: 1024px) {
+
     .containerSubSection {
 
         display: flex;
@@ -177,7 +202,36 @@
 
     .containerTwoSubSection {
 
-        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        gap: 50px;
 
     }
+
 }
+
+@media screen and (min-width: 1440px) {
+
+    .containerTwoSubSection {
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+    .imageProjects {
+
+        display: none; 
+
+    }
+
+}
+

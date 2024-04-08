@@ -1,6 +1,6 @@
 .section {
 
-    background-color: var(--color-gray-4);
+    background-color: var(--color-gray-5);
     height: 690px;
 
     display: flex;
@@ -14,7 +14,17 @@
     height: 579px;
     max-width: 90%;
 
-    margin-top:38px;
+}
+
+.titleDev {
+
+    color: var(--color-primary);
+
+    font-family: var(--font-primary);
+    font-size: var(--title-3);
+    font-weight: var(--text-bold-3);
+
+    margin-bottom: 35px;
 
 }
 
@@ -27,10 +37,12 @@
 
 .imageProfile {
 
-    width: 46px;
-    height: 46px;
+    width: 56px;
+    height: 66px;
 
-    border-radius: 50%;
+    border-radius: 20%;
+
+    cursor: pointer;
 
 }
 
@@ -93,9 +105,38 @@
 }
 
 .button {
+    width: 140px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: var(--text-headline);
+    font-weight: var(--text-bold-2);
+    transition: background-position 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.button {
 
     width: 140px;
     height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    gap: 5px;
 
     border: none;
     border-radius: 8px;
@@ -118,27 +159,34 @@
 
 }
 
+.iconDownload {
+
+    color: var(--color-gray-0);
+
+    width: 18px;
+    height: 18px;
+
+}
+
 .containerFourth {
 
     margin-top: 150px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 
 }
 
-@media screen and (min-width: 1440px) {
-    .containerFourth {
-        display: block;
-    }
-}
+
 
 .containerSubFourth {
 
     background-color: var(--color-gray-2);
     height: 50px;
     width: 100%;
+
+    max-width: 400px;
 
     margin-top: 20px;
     border-radius: 8px;
@@ -149,16 +197,6 @@
     align-items: center;
     transition: background-color 0.3s;
 
-}
-
-@media screen and (min-width: 1440px) {
-    .containerSubFourth {
-        width: 400px;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-    }
 }
 
 .containerSubFourth:hover {
@@ -212,7 +250,32 @@
 }
 
 @media screen and (max-width: 1440px) {
+
     .imageCart {
+
         display: none; 
+
     }
+
+    .containerFourth {
+
+        display: block;
+        
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .containerSubFourth {
+
+        width: 400px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        
+    }
+
 }

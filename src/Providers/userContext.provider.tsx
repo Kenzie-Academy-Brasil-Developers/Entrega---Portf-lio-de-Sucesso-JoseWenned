@@ -5,7 +5,8 @@ export const UserContext = createContext({} as IUserContext)
 
 export const UserProvider = ( { children }: IUserProvidersProps) => {
 
-    const [category, setCategory] = useState("All projects");
+    const [category, setCategory] = useState( "All projects" );
+    const [isModal, setModal] = useState ( false )
 
     // Function for copy text E-mail:
 
@@ -102,7 +103,9 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             filteredProjects,
             setCategory,
             sumProjects,
-            handleOpenLink
+            handleOpenLink,
+            isModal,
+            setModal
         }}>
             { children }
         </UserContext.Provider>
