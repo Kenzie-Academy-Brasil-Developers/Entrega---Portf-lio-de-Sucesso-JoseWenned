@@ -5,8 +5,8 @@ export interface IDataProject {
     name: string;
     language: string;
     description: string;
-    linkGitHub: string;
-    linkVercel: string;
+    linkOne: string;
+    linkTwo: string;
     category: string;
     
 }
