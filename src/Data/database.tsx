@@ -146,7 +146,7 @@ export const projects = [
         name: "Project World Cup",
         language: "Python, Django ( Rest Framework )",
         description: `This project consists of creating an API to organize a football championship, where each team represents a national team. The proposal aims to provide the sporting events company with an efficient solution to manage the tournament with adequate organization and validations. Development will be divided into stages, with business rules and functionalities detailed in each task. The objective is to ensure that the championship takes place in a fluid and organized manner, meeting the specific needs of the client and participants.`,
-        linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/CupWorld-JoseWenned",
+        linkOne: "https://github.com/JoseWenned/m5-kopa-do-mundo-template-JoseWenned",
         linkTwo: "",
         category: "Backend"
     },
@@ -157,7 +157,7 @@ export const projects = [
         name: "Project PetKare",
         language: "Python, Django ( Rest Framework )",
         description: `This project aims to implement an API for the PetKare petshop, providing greater control and organization of customer and pet data. The company currently faces challenges from manual processes and information disorganization. The API will be developed to centralize and automate tasks such as animal registration, appointment history, scheduling, among others. The goal is to modernize and optimize PetKare operations, improving the experience for both customers and employees.`,
-        linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/PetKare-JoseWenned",
+        linkOne: "https://github.com/JoseWenned/m5-pet-kare-template--JoseWenned",
         linkTwo: "",
         category: "Backend"
     },
@@ -168,7 +168,7 @@ export const projects = [
         name: "Project Kenzie Buster",
         language: "Python, Django ( Rest Framework )",
         description: `This project aims to develop an API for film sales management, replacing old-fashioned methods with a modern and efficient system. The application covers user, movie and purchase management, implementing authentication and route permissions for different types of users. The initial project configuration will follow best practices, including .gitignore and requirements.txt. Users will be customized based on AbstractUser, relationships will be established between users and movies, and serializers, customized validations and route protection via JWT authentication will be implemented. In addition, custom pivot tables, choice fields for model attributes and pagination with APIView will be created. The objective is to create a robust and modern solution for film sales management, providing greater efficiency and organization for the company.`,
-        linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/KenzieBuster-JoseWenned",
+        linkOne: "https://github.com/JoseWenned/m5-kenzie-buster-JoseWenned",
         linkTwo: "",
         category: "Backend"
     },
@@ -179,7 +179,7 @@ export const projects = [
         name: "Project BandKamp Generic View",
         language: "Python, Django ( Rest Framework )",
         description: `This project consists of refactoring a legacy project developed in Django, replacing the views in APIView and the basic serializers with Concrete Views and Model Serializer. In addition, the database will be transitioned from SQLite3 to PostgreSQL. The application must also have documentation in Swagger and/or Redoc format and be in production, with deployment on the Render platform. Two bugs related to application logic and configuration will be fixed, in addition to ensuring that .env.example and requirements.txt are configured correctly. The objective is to modernize the application, improving its structure and performance, ensuring its stability and functionality.`,
-        linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/BandKampGenericView-JoseWenned",
+        linkOne: "https://github.com/JoseWenned/m5-bandkamp-generic-view-JoseWenned",
         linkTwo: "",
         category: "Backend"
     },
