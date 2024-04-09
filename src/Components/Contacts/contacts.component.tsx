@@ -2,6 +2,10 @@ import { UserContext } from "../../Providers/userContext.provider"
 import { useContext } from "react"
 import style from "./style.module.scss"
 import { MdOutlineCopyAll } from "react-icons/md";
+import whatsapp from "../../assets/WhatsApp.png";
+import email from "../../assets/Icon E-mail.png";
+import linkedin from "../../assets/LinkedInTwo.png";
+import imagecart2 from "../../assets/header-bg2.png"
 
 export const Contacts = () => {
 
@@ -23,7 +27,7 @@ export const Contacts = () => {
                             <li className={style.containerCard}>
 
                                 <div>
-                                    <img className={style.imageWhatsApp} src="./src/assets/WhatsApp.png"/>
+                                        <img className={style.imageWhatsApp} src={whatsapp}/>
                                 </div>
 
                                 <div className={style.containerInformation}>
@@ -48,7 +52,7 @@ export const Contacts = () => {
                             <li className={style.containerCard}>
 
                                 <div>
-                                    <img className={style.imageEmail} src="./src/assets/Icon E-mail.png"/>
+                                    <img className={style.imageEmail} src={email}/>
                                 </div>
 
                                 <div className={style.containerInformation}>
@@ -73,7 +77,7 @@ export const Contacts = () => {
                             <li className={style.containerCard}>
 
                                 <div>
-                                    <img className={style.imageLinkedIn} src="./src/assets/linkedInTwo.png"/>
+                                    <img className={style.imageLinkedIn} src={linkedin}/>
                                 </div>
 
                                 <div className={style.containerInformation}>
@@ -92,7 +96,7 @@ export const Contacts = () => {
 
                     <div>
 
-                        <img className={style.imageProjects} src="./src/assets/header-bg (2).png" alt="imageProjects"/>
+                        <img className={style.imageProjects} src={imagecart2} alt="imageProjects"/>
 
                     </div>
 
