@@ -135,7 +135,7 @@ export const projects = [
         name: "Project Kiosque",
         language: "Python",
         description: `This food store management application development project aims to provide the client with an efficient solution to manage their business. The application will allow you to check the existence of products on the menu, list foods by category, calculate the total cost of a table and other essential features to facilitate the store's day-to-day operations. The implementation will be carried out in stages, following the business rules and functionalities described in each task. The goal is to deliver a robust and user-friendly application that meets the customer's specific needs.`,
-        linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/Kioque-JoseWenned",
+        linkOne: "https://github.com/JoseWenned/Jose-Wenned",
         linkTwo: "",
         category: "Backend"
     },
