@@ -16,8 +16,8 @@ export const ListProjectsAll = () => {
                             <h2 className={style.titleProject}>{project.name}</h2>
                             <p className={style.languageProject}>Languages: {project.language}</p>
                             <p className={style.description}>Description: {project.description}</p>
-                            <button className={style.button} onClick={() => handleOpenLink( project.linkGitHub )}>GitHub</button>
-                            <button className={style.button} onClick={() => handleOpenLink( project.linkVercel )}>Application</button>
+                            <button className={style.button} onClick={() => handleOpenLink( project.linkOne )}>GitHub</button>
+                            <button className={style.button} onClick={() => handleOpenLink( project.linkTwo )}>Application</button>
                             <p className={style.category}>{project.category}</p>
                         </div>
                     </li>
