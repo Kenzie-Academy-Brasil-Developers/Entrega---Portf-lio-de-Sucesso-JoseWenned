@@ -4,7 +4,7 @@ import style from "./style.module.scss"
 import { MdOutlineCopyAll } from "react-icons/md";
 import whatsapp from "../../assets/WhatsApp.png";
 import email from "../../assets/Icon E-mail.png";
-import linkedin from "../../assets/linkedInTwo.png";
+import linkedin from "../../assets/LinkedInTwo.png";
 import imagecart2 from "../../assets/header-bg2.png"
 
 export const Contacts = () => {
