@@ -4,6 +4,7 @@ import { UserContext } from "../../Providers/userContext.provider";
 import style from "./style.module.scss"
 import perfil1 from "../../assets/Perfil.jpeg"
 
+
 export const Modal = () => {
 
     const { setModal } = useContext( UserContext )
