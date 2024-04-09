@@ -201,9 +201,9 @@ export const experiences = [
 
     {    
         id: 1,
-        company: "",
-        office: "",
-        date: ""
+        company: "Kenzie Academy Brasil",
+        office: "Experience in academic projects",
+        date: "jan 2023 - jan 2024"
     }
 
 ]
