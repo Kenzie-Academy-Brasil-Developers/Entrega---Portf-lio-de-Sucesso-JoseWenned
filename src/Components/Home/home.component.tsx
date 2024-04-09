@@ -6,8 +6,8 @@ import { IoMdContacts } from "react-icons/io";
 import { FaFileCode } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
-import minhaImage from "../../assets/Perfil.jpeg";
-import imageCart from "../../assets/header-bg.png.png"
+import imageCart1 from "../../assets/header-bg.png.png";
+import perfil2 from "../../assets/Perfil2.jpg";
 
 export const Home = () => {
 
@@ -28,7 +28,7 @@ export const Home = () => {
                     <h1 className={style.titleDev}>DEVELOPER FULL STACK</h1>
 
                     <div className={style.containerSecond}>
-                        <img className={style.imageProfile} src={minhaImage} onClick={ openModal }/>
+                        <img className={style.imageProfile} src={perfil2} onClick={ openModal }/>
                         <p className={style.titleName}>Hello, my name is José Wenned</p>
                     </div>
 
@@ -79,7 +79,7 @@ export const Home = () => {
                 </div>
 
              
-                <img className={style.imageCart} src={imageCart} alt="image.cartPage"/>
+                <img className={style.imageCart} src={imageCart1} alt="image.cartPage"/>
                 
                 
             </section>
