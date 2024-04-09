@@ -7,7 +7,7 @@ import { FaFileCode } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
 import imageCart1 from "../../assets/header-bg.png.png";
-import perfil2 from "../../assets/Perfil2.jpg";
+import perfil2 from "../../assets/PerfilSmall.jpg";
 
 export const Home = () => {
 
