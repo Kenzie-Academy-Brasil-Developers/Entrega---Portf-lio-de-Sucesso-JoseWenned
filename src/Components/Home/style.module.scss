@@ -105,24 +105,35 @@
 }
 
 .button {
+
     width: 140px;
     height: 48px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+
     gap: 5px;
+
     border: none;
     border-radius: 8px;
+
     background-color: var(--color-primary);
     color: var(--color-white);
+
     font-family: var(--font-primary);
     font-size: var(--text-headline);
     font-weight: var(--text-bold-2);
+    white-space: nowrap;
+
     transition: background-position 0.3s;
+
     cursor: pointer;
+
     position: relative;
     overflow: hidden;
+
 }
 
 .button {
