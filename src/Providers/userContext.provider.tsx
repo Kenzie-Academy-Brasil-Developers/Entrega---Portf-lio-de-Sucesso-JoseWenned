@@ -61,9 +61,9 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
 
         const link = document.createElement("a");
 
-        link.href = "https://drive.google.com/file/d/1Ym4L8cFE-QDNkg2xsH1hlx2VYvGW8On0/view";
+        link.href = "https://drive.google.com/file/d/1GzgZSowYvDT4Ue9FWMuK9stXicr9GjmW/view?usp=sharing";
 
-        link.download = "Currículo-Backend-José Wenned.pdf";
+        link.download = "José-Wenned-Chaves-de-Sousa-Currículo-Full-Stack (2).pdf";
 
         link.click()
 
