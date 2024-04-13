@@ -1,6 +1,7 @@
 import projectFrontEnd from "../assets/Project Front End.png"
 import projectBackEnd from "../assets/Project Api.png"
 import projectFullStack from "../assets/Project FullStack.png"
+import APIMercadoAutonomo from "../assets/API Mercado Autonômo.png"
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
 import imageScss from "../assets/scss-svgrepo-com.png"
@@ -76,12 +77,12 @@ export const projects = [
 
     {
         id: 5,
-        image: projectBackEnd,
+        image: APIMercadoAutonomo,
         name: "Project Autonomous Market",
         language: "Node.js, Express.js, TypeScript",
         description: `This REST API was developed to meet the inventory control needs of a startup transitioning to a network of autonomous markets, Smart Stores. Focusing on the most common product types, food and cleaning, the API offers routes for creating, listing, updating and deleting products. Using the provided design document, endpoints were implemented to ensure efficient inventory management, allowing the startup to maintain precise control over its products and facilitating its evolution into a network of autonomous marketplaces.`,
         linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/Entrega-Mercado-Autonomo-JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -103,7 +104,7 @@ export const projects = [
         language: "Node.js, Express.js, TypeScript",
         description: `The task consists of developing a REST API in TypeScript to manage developers and projects at a technology startup. Developers can be registered, associated with extra information, and linked to specific projects. Business rules must be strictly followed, including using a PostgreSQL database and creating tables as specified. Automated testing is mandatory, with a separate database for running tests. The project structure should include specific folders for SQL and diagrams, with appropriate scripts for cleaning the database. The code must be organized and follow previously established practices, ensuring consistency and quality.`,
         linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/Entrega-3-KenzieVelopers-JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -114,7 +115,7 @@ export const projects = [
         language: "Node.js, Express.js, TypeScript",
         description: `This project consists of creating an MVP of an API for controlling users and courses, with authentication and access control features. Users will be able to register, log in and be enrolled in courses. Additionally, the API will have administration functionality, allowing users with administrator permissions to manage courses and users. Restricted features will only be accessible to authenticated users and, in some cases, only to administrators. The MVP aims to provide a solid foundation for future development, meeting the basic needs of controlling users and courses securely and efficiently.`,
         linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/User-Courses-JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -125,7 +126,7 @@ export const projects = [
         language: "Node.js, Express.js, TypeScript",
         description: `The Kimóveis real estate service management application allows the registration of properties and interested users, facilitating communication between buyers and sellers. Users can schedule visits to available properties, optimizing the property search and acquisition process. Focusing on efficiency and practicality, the application aims to provide an intuitive and agile experience for clients and real estate employees, strengthening its position in the real estate market.`,
         linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/ProjetoFinal-KIm-veis-JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -136,7 +137,7 @@ export const projects = [
         language: "Python",
         description: `This food store management application development project aims to provide the client with an efficient solution to manage their business. The application will allow you to check the existence of products on the menu, list foods by category, calculate the total cost of a table and other essential features to facilitate the store's day-to-day operations. The implementation will be carried out in stages, following the business rules and functionalities described in each task. The goal is to deliver a robust and user-friendly application that meets the customer's specific needs.`,
         linkOne: "https://github.com/JoseWenned/Jose-Wenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -147,7 +148,7 @@ export const projects = [
         language: "Python, Django ( Rest Framework )",
         description: `This project consists of creating an API to organize a football championship, where each team represents a national team. The proposal aims to provide the sporting events company with an efficient solution to manage the tournament with adequate organization and validations. Development will be divided into stages, with business rules and functionalities detailed in each task. The objective is to ensure that the championship takes place in a fluid and organized manner, meeting the specific needs of the client and participants.`,
         linkOne: "https://github.com/JoseWenned/m5-kopa-do-mundo-template-JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -158,7 +159,7 @@ export const projects = [
         language: "Python, Django ( Rest Framework )",
         description: `This project aims to implement an API for the PetKare petshop, providing greater control and organization of customer and pet data. The company currently faces challenges from manual processes and information disorganization. The API will be developed to centralize and automate tasks such as animal registration, appointment history, scheduling, among others. The goal is to modernize and optimize PetKare operations, improving the experience for both customers and employees.`,
         linkOne: "https://github.com/JoseWenned/m5-pet-kare-template--JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -169,7 +170,7 @@ export const projects = [
         language: "Python, Django ( Rest Framework )",
         description: `This project aims to develop an API for film sales management, replacing old-fashioned methods with a modern and efficient system. The application covers user, movie and purchase management, implementing authentication and route permissions for different types of users. The initial project configuration will follow best practices, including .gitignore and requirements.txt. Users will be customized based on AbstractUser, relationships will be established between users and movies, and serializers, customized validations and route protection via JWT authentication will be implemented. In addition, custom pivot tables, choice fields for model attributes and pagination with APIView will be created. The objective is to create a robust and modern solution for film sales management, providing greater efficiency and organization for the company.`,
         linkOne: "https://github.com/JoseWenned/m5-kenzie-buster-JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
@@ -180,7 +181,7 @@ export const projects = [
         language: "Python, Django ( Rest Framework )",
         description: `This project consists of refactoring a legacy project developed in Django, replacing the views in APIView and the basic serializers with Concrete Views and Model Serializer. In addition, the database will be transitioned from SQLite3 to PostgreSQL. The application must also have documentation in Swagger and/or Redoc format and be in production, with deployment on the Render platform. Two bugs related to application logic and configuration will be fixed, in addition to ensuring that .env.example and requirements.txt are configured correctly. The objective is to modernize the application, improving its structure and performance, ensuring its stability and functionality.`,
         linkOne: "https://github.com/JoseWenned/m5-bandkamp-generic-view-JoseWenned",
-        linkTwo: "",
+        linkTwo: "http://localhost:3000/api-documentation",
         category: "Backend"
     },
 
