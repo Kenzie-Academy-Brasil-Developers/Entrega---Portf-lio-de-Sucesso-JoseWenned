@@ -1,7 +1,10 @@
 import projectFrontEnd from "../assets/Project Front End.png"
 import projectBackEnd from "../assets/Project Api.png"
 import projectFullStack from "../assets/Project FullStack.png"
+
 import APIMercadoAutonomo from "../assets/API Mercado Autonômo.png"
+import APILocadoraDeFilmes1 from "../assets/Locadora de filmes(1).png"
+
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
 import imageScss from "../assets/scss-svgrepo-com.png"
@@ -88,7 +91,7 @@ export const projects = [
 
     {
         id: 6,
-        image: projectBackEnd,
+        image: APILocadoraDeFilmes1,
         name: "Project Movie Rental Store",
         language: "Node.js, Express.js, TypeScript",
         description: `The request consists of creating an API to manage a video store's film collection, aiming for integration with a streaming platform. The client demands a service that strictly complies with established rules, which include CRUD operations for films, with detailed information such as title, director, genre and year of release. The objective is to ensure an efficient and accurate system for collection management, meeting customer expectations and enabling a high-quality streaming experience for users.`,
