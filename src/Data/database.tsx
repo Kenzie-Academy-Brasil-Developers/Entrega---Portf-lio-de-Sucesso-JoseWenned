@@ -4,6 +4,7 @@ import projectFullStack from "../assets/Project FullStack.png"
 
 import APIMercadoAutonomo from "../assets/API Mercado Autonômo.png"
 import APILocadoraDeFilmes1 from "../assets/Locadora de filmes(1).png"
+import APIKenzieVelopers from "../assets/Kenzie Velopers.png"
 
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
@@ -102,7 +103,7 @@ export const projects = [
 
     {
         id: 7,
-        image: projectBackEnd,
+        image: APIKenzieVelopers,
         name: "Project Kenzie Velopers",
         language: "Node.js, Express.js, TypeScript",
         description: `The task consists of developing a REST API in TypeScript to manage developers and projects at a technology startup. Developers can be registered, associated with extra information, and linked to specific projects. Business rules must be strictly followed, including using a PostgreSQL database and creating tables as specified. Automated testing is mandatory, with a separate database for running tests. The project structure should include specific folders for SQL and diagrams, with appropriate scripts for cleaning the database. The code must be organized and follow previously established practices, ensuring consistency and quality.`,
