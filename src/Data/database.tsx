@@ -5,6 +5,7 @@ import projectFullStack from "../assets/Project FullStack.png"
 import APIMercadoAutonomo from "../assets/API Mercado Autonômo.png"
 import APILocadoraDeFilmes1 from "../assets/Locadora de filmes(1).png"
 import APIKenzieVelopers from "../assets/Kenzie Velopers.png"
+import APIUserAndCourse from "../assets/User e Courses.png"
 
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
@@ -114,7 +115,7 @@ export const projects = [
 
     {
         id: 8,
-        image: projectBackEnd,
+        image: APIUserAndCourse,
         name: "Project User and Courses",
         language: "Node.js, Express.js, TypeScript",
         description: `This project consists of creating an MVP of an API for controlling users and courses, with authentication and access control features. Users will be able to register, log in and be enrolled in courses. Additionally, the API will have administration functionality, allowing users with administrator permissions to manage courses and users. Restricted features will only be accessible to authenticated users and, in some cases, only to administrators. The MVP aims to provide a solid foundation for future development, meeting the basic needs of controlling users and courses securely and efficiently.`,
