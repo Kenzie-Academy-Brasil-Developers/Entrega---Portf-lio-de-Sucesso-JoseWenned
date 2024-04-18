@@ -6,6 +6,7 @@ import APIMercadoAutonomo from "../assets/API Mercado Autonômo.png"
 import APILocadoraDeFilmes1 from "../assets/Locadora de filmes(1).png"
 import APIKenzieVelopers from "../assets/Kenzie Velopers.png"
 import APIUserAndCourse from "../assets/User e Courses.png"
+import APIKImoveis from "../assets/KImoveis.png"
 
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
@@ -126,7 +127,7 @@ export const projects = [
 
     {
         id: 9,
-        image: projectBackEnd,
+        image: APIKImoveis,
         name: "Project Kenzie Properties",
         language: "Node.js, Express.js, TypeScript",
         description: `The Kimóveis real estate service management application allows the registration of properties and interested users, facilitating communication between buyers and sellers. Users can schedule visits to available properties, optimizing the property search and acquisition process. Focusing on efficiency and practicality, the application aims to provide an intuitive and agile experience for clients and real estate employees, strengthening its position in the real estate market.`,
@@ -158,7 +159,7 @@ export const projects = [
     },
 
     {
-        id: 11,
+        id: 12,
         image: projectBackEnd,
         name: "Project PetKare",
         language: "Python, Django ( Rest Framework )",
@@ -169,7 +170,7 @@ export const projects = [
     },
 
     {
-        id: 12,
+        id: 13,
         image: projectBackEnd,
         name: "Project Kenzie Buster",
         language: "Python, Django ( Rest Framework )",
@@ -180,7 +181,7 @@ export const projects = [
     },
 
     {
-        id: 13,
+        id: 14,
         image: projectBackEnd,
         name: "Project BandKamp Generic View",
         language: "Python, Django ( Rest Framework )",
@@ -191,7 +192,7 @@ export const projects = [
     },
 
     {
-        id: 14,
+        id: 15,
         image: projectFullStack,
         name: "Project Challenge FullStack",
         language: "Html5, CSS3, React.js, Node.js, Express.js, TypeScript, SQL (PostgreSQL)",
