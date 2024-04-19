@@ -7,6 +7,7 @@ import APILocadoraDeFilmes1 from "../assets/Locadora de filmes(1).png"
 import APIKenzieVelopers from "../assets/Kenzie Velopers.png"
 import APIUserAndCourse from "../assets/User e Courses.png"
 import APIKImoveis from "../assets/KImoveis.png"
+import APIChallengeFullStack from "../assets/Challenge Full Stack.png"
 
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
@@ -139,17 +140,6 @@ export const projects = [
     {
         id: 10,
         image: projectBackEnd,
-        name: "Project Kiosque",
-        language: "Python",
-        description: `This food store management application development project aims to provide the client with an efficient solution to manage their business. The application will allow you to check the existence of products on the menu, list foods by category, calculate the total cost of a table and other essential features to facilitate the store's day-to-day operations. The implementation will be carried out in stages, following the business rules and functionalities described in each task. The goal is to deliver a robust and user-friendly application that meets the customer's specific needs.`,
-        linkOne: "https://github.com/JoseWenned/Jose-Wenned",
-        linkTwo: "http://localhost:3000/api-documentation",
-        category: "Backend"
-    },
-
-    {
-        id: 11,
-        image: projectBackEnd,
         name: "Project World Cup",
         language: "Python, Django ( Rest Framework )",
         description: `This project consists of creating an API to organize a football championship, where each team represents a national team. The proposal aims to provide the sporting events company with an efficient solution to manage the tournament with adequate organization and validations. Development will be divided into stages, with business rules and functionalities detailed in each task. The objective is to ensure that the championship takes place in a fluid and organized manner, meeting the specific needs of the client and participants.`,
@@ -159,7 +149,7 @@ export const projects = [
     },
 
     {
-        id: 12,
+        id: 11,
         image: projectBackEnd,
         name: "Project PetKare",
         language: "Python, Django ( Rest Framework )",
@@ -170,7 +160,7 @@ export const projects = [
     },
 
     {
-        id: 13,
+        id: 12,
         image: projectBackEnd,
         name: "Project Kenzie Buster",
         language: "Python, Django ( Rest Framework )",
@@ -181,7 +171,7 @@ export const projects = [
     },
 
     {
-        id: 14,
+        id: 13,
         image: projectBackEnd,
         name: "Project BandKamp Generic View",
         language: "Python, Django ( Rest Framework )",
@@ -192,8 +182,8 @@ export const projects = [
     },
 
     {
-        id: 15,
-        image: projectFullStack,
+        id: 14,
+        image: APIChallengeFullStack,
         name: "Project Challenge FullStack",
         language: "Html5, CSS3, React.js, Node.js, Express.js, TypeScript, SQL (PostgreSQL)",
         description: "I developed a complete system in JavaScript/TypeScript to manage customer registrations and their contacts. I will implement CRUD operations for both entities, as well as a detailed report displaying the customers and their linked contacts. I will provide clear documentation to facilitate understanding and configuration of the system. I will also consider testing and dockerization for greater robustness and portability.",
