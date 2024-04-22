@@ -215,6 +215,14 @@ export const educations = [
         date: "jan 2023 - jan 2024"
 
     },
+    {   
+
+        id: 2,
+        intitution: "UniCesumar College",
+        training: "Systems Analysis and Development",
+        date: "abr 2024 - nov 2026"
+
+    },
 
 ]
 
