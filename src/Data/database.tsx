@@ -2,6 +2,10 @@ import projectFrontEnd from "../assets/Project Front End.png"
 import projectBackEnd from "../assets/Project Api.png"
 import projectFullStack from "../assets/Project FullStack.png"
 
+import ImageNuKenzie from "../assets/Project Nu Kenzie.png"
+import ImageHamburgueriaKenzie from "../assets/Project Burger Kenzie.png"
+import ImageKenzieMovie from "../assets/Project Kenzie Movie.png"
+import ImageKenzieHub from "../assets/Project Kenzie Hub.png"
 import APIMercadoAutonomo from "../assets/API Mercado Autonômo.png"
 import APILocadoraDeFilmes1 from "../assets/Locadora de filmes(1).png"
 import APIKenzieVelopers from "../assets/Kenzie Velopers.png"
@@ -40,7 +44,7 @@ export const projects = [
 
     {
         id: 1,
-        image: projectFrontEnd,
+        image: ImageNuKenzie,
         name: "Project Nu Kenzie",
         language: "Html, Css3 ( SCSS ), Javascript, React",
         description: `Nu Kenzie is a React application for managing expenses. The components were structured and styled with SASS. The logic uses state to capture transactions, dynamically render them, and calculate the total. Features include add/delete transactions and total calculation. Ternaries are used to improve user experience. The project promotes the practice of componentization, styling and state manipulation in React, providing an intuitive and efficient interface for financial control.`,
@@ -51,7 +55,7 @@ export const projects = [
 
     {
         id: 2,
-        image: projectFrontEnd,
+        image: ImageHamburgueriaKenzie,
         name: "Project Burguer Kenzie",
         language: "Html, Css3 ( SCSS ), Javascript, React",
         description: `The Burguer Kenzie project implements features of a shopping cart using React and styling with SASS. The application consumes an API to list products, allowing you to add and remove items from the cart, with automatic calculation of totals. Responsiveness is guaranteed for a consistent experience across different devices. Using useEffect makes it easier to integrate with the API and persist cart data to localStorage. Additionally, a simple modal is implemented to detail additional information about the products. As an optional challenge, it is proposed to refine the modal's behavior with features such as closing when clicking outside or pressing "Esc". The project offers comprehensive practice in styling, API integration, state management, and event handling in React.`,
@@ -62,7 +66,7 @@ export const projects = [
 
     {
         id: 3,
-        image: projectFrontEnd,
+        image: ImageKenzieHub,
         name: "Project Kenzie Hub",
         language: "Html, Css3 ( Styled-Components ), Javascript, React",
         description: `This project is a user authentication and management system in React, with routes for Login, Registration and Dashboard. The components are structured in a modular way, facilitating development and maintenance. Using React Router Dom, routes are configured to direct the user to the corresponding pages. Forms are managed with React Hook Form, including field validations. The registration form requires data such as name, email, password, biography, and course module. In the contact form, you only need your email and password. Registration and login functionalities are implemented via POST requests to the appropriate routes. After successful registration, the user is redirected to the home page. Upon login, the user's state is stored and the token is saved in localStorage for future authentication. Logout reverses the login actions, clearing the user's state and removing the localStorage token, redirecting the user back to the home page. This project provides a fluid and secure experience for users, with a well-defined architecture and robust authentication features.`,
@@ -73,7 +77,7 @@ export const projects = [
 
     {
         id: 4,
-        image: projectFrontEnd,
+        image: ImageKenzieMovie,
         name: "Project Kenzie Movie",
         language: "Html, Css3 ( Tailwind ), Javascript, React, TypeScript",
         description: `This project aims to create a streaming platform with different access levels for logged in and logged out users. For logged in users, there is the ability to view a variety of films, each with detailed information including genre, name, duration and average rating. Plus, they can write, edit, and delete their own reviews. Logged out users can access all screens except the rating functionality. There is an emphasis on password security and data validation. The project makes use of ContextAPI to manage the global state of the application and allows the use of style/component libraries to facilitate code development and maintenance, encouraging the exploration of new technologies by collaborators.`,
