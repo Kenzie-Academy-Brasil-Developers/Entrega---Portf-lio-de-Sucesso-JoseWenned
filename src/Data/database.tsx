@@ -12,6 +12,7 @@ import APIKenzieVelopers from "../assets/Kenzie Velopers.png"
 import APIUserAndCourse from "../assets/User e Courses.png"
 import APIKImoveis from "../assets/KImoveis.png"
 import APIChallengeFullStack from "../assets/Challenge Full Stack.png"
+import APIDatabasePortfolioJoseWenned from "../assets/Database Portfolio José Wenned.png"
 
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
@@ -187,6 +188,17 @@ export const projects = [
 
     {
         id: 14,
+        image: APIDatabasePortfolioJoseWenned,
+        name: "Project Database Portfolio José Wenned",
+        language: "Node.js, Express, TypeScript",
+        description: `This new feature allows them to leave valuable feedback about my work quickly and easily. With two dedicated routes - one for creating drawings and another for reading these reviews - it's now simpler than ever to share your experiences and opinions about the projects we do together.`,
+        linkOne: "https://github.com/JoseWenned/DataBase-Portfolio-JoseWenned",
+        linkTwo: "http://localhost:3000/api-documentation",
+        category: "Backend"
+    },
+
+    {
+        id: 15,
         image: APIChallengeFullStack,
         name: "Project Challenge FullStack",
         language: "Html5, CSS3, React.js, Node.js, Express.js, TypeScript, SQL (PostgreSQL)",
