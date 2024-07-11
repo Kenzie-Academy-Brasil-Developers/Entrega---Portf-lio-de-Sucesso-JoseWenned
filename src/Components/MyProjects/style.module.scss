@@ -49,7 +49,6 @@
 }
 
 .button {
-
     width: 145px;
     height: 40px;
     margin-top: 8px;
@@ -58,24 +57,20 @@
 
     border: none;
     border-radius: 8px;
-    background-color: var(--color-primary);
+    background: linear-gradient(45deg, #A06DF3, #01E585);
     color: var(--color-white);
 
     font-family: var(--font-primary);
     font-size: var(--text-headline);
     font-weight: var(--text-bold-2);
 
-    transition: background-color 0.3s;
-
     cursor: pointer;
-    
 }
 
 .button:hover {
-
-    background-color: var( --color-primary-50);
-
+    background: linear-gradient(45deg, #A06DF3cc, #01E585cc); 
 }
+
 
 .titleProjects {
 
