@@ -18,11 +18,13 @@
 
 .titleDev {
 
-    color: var(--color-primary);
+    background: linear-gradient(#A06DF3, #01E585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
     font-family: var(--font-primary);
-    font-size: var(--title-3);
-    font-weight: var(--text-bold-3);
+    font-size: var(--title-2);
+    font-weight: var(--text-bold-4);
 
     margin-bottom: 35px;
 
