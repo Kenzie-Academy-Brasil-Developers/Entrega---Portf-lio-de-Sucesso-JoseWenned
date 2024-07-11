@@ -15,9 +15,9 @@ export const Footer = () => {
                     </div>
 
                     <div className={style.containerSecond}>
-                        <BsFacebook className={style.imageFooterFacebook}/>
-                        <BsInstagram className={style.imageFooterInstagram}/>
-                        <BsLinkedin className={style.imageFooterLinkedIn}/>
+                        <a href="https://www.facebook.com/profile.php?id=100004807723751" target="blank"><BsFacebook className={style.imageFooterFacebook}/></a>
+                        <a href="https://www.instagram.com/j.wenned?igsh=MW5henc0Z2E3eDhqag%3D%3D&utm_source=qr" target="blank"><BsInstagram className={style.imageFooterInstagram}/></a>
+                        <a href="https://www.linkedin.com/in/jos%C3%A9-wenned-chaves-de-sousa-148554165/" target="blank"><BsLinkedin className={style.imageFooterLinkedIn}/></a>
                     </div>
                 </div>
                 
