@@ -18,7 +18,7 @@
 
 .titleDev {
 
-    background: linear-gradient(#A06DF3, #01E585);
+    background: linear-gradient(45deg, #A06DF3, #01E585);
     background-clip: text;
     color: transparent;
 
@@ -79,7 +79,7 @@
 
 .textColorFul {
 
-    background: linear-gradient(#A06DF3, #01E585);
+    background: linear-gradient(45deg, #A06DF3, #01E585);
     background-clip: text;
     color: transparent;
 
@@ -120,12 +120,13 @@
 
     gap: 5px;
 
-    border: none;
-    border-radius: 8px;
+    border-color: none;
+    // border-radius: 8px;
+    border-image: linear-gradient(45deg, #A06DF3, #01E585) 1;
 
     background-clip: text;
     color: var(--color-white);
-    background-color: linear-gradient(#A06DF3, #01E585);
+    background-color: linear-gradient(45deg, #A06DF3, #01E585);
 
     font-family: var(--font-primary);
     font-size: var(--text-headline);
@@ -154,10 +155,8 @@
 
     gap: 5px;
 
-    border: none;
-    border-radius: 8px;
     color: var(--color-white);
-    background-color: linear-gradient(#A06DF3, #01E585);
+    background-color: linear-gradient(45deg, #A06DF3, #01E585);
 
     font-family: var(--font-primary);
     font-size: var(--text-headline);
@@ -236,10 +235,8 @@
 
 .numberExperience {
 
-    // color: var(--color-primary-50);
-
     color: transparent;
-    background-image: linear-gradient( 45deg, #A06DF3, #01E585 );
+    background-image: linear-gradient(45deg, #A06DF3, #01E585 );
     background-clip: text;
 
     font-family: var(--font-primary);

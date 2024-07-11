@@ -44,8 +44,9 @@
     right: 0;
     z-index: 1;
 
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px 6px rgba(160, 109, 243, 0.9), 0 0 10px 8px rgba(1, 229, 133, 0.5);
 
+    background-color: linear-gradient(rgba(160, 109, 243, 0.9), rgba(1, 229, 133, 0.5));
 }
 
 .iconClose {
@@ -97,10 +98,10 @@
 .titleNavigate:hover {
 
     text-decoration: underline;
-    text-decoration-color: linear-gradient( 45deg, #A06DF3, #01E585 );
+    text-decoration-color: linear-gradient(45deg, #A06DF3, #01E585 );
 
     color: transparent;
-    background-image: linear-gradient( 45deg, #A06DF3, #01E585 );
+    background-image: linear-gradient(45deg, #A06DF3, #01E585 );
     background-clip: text;
 
 }
@@ -160,8 +161,8 @@
 .iconList:hover{
 
     color: var(--color-gray-3);
-
 }
+
 
 .iconListNavigate {
 
