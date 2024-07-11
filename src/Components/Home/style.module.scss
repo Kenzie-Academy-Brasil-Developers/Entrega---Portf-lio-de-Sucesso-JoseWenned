@@ -19,8 +19,8 @@
 .titleDev {
 
     background: linear-gradient(#A06DF3, #01E585);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 
     font-family: var(--font-primary);
     font-size: var(--title-2);
@@ -77,9 +77,11 @@
 
 }
 
-.textPurple {
+.textColorFul {
 
-    color: var(--color-primary);
+    background: linear-gradient(#A06DF3, #01E585);
+    background-clip: text;
+    color: transparent;
 
 }
 
@@ -121,8 +123,9 @@
     border: none;
     border-radius: 8px;
 
-    background-color: var(--color-primary);
+    background-clip: text;
     color: var(--color-white);
+    background-color: linear-gradient(#A06DF3, #01E585);
 
     font-family: var(--font-primary);
     font-size: var(--text-headline);
@@ -153,8 +156,8 @@
 
     border: none;
     border-radius: 8px;
-    background-color: var(--color-primary);
     color: var(--color-white);
+    background-color: linear-gradient(#A06DF3, #01E585);
 
     font-family: var(--font-primary);
     font-size: var(--text-headline);
@@ -166,9 +169,21 @@
 
 }
 
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #A06DF3, #01E585);
+    z-index: -1;
+    transition: opacity 0.3s;
+}
+
 .button:hover {
 
-    background-color: var( --color-primary-50);
+    opacity: 0.8;
 
 }
 
@@ -195,7 +210,7 @@
 
 .containerSubFourth {
 
-    background-color: var(--color-gray-2);
+    background-color: var(--color-gray-3);
     height: 50px;
     width: 100%;
 
@@ -221,7 +236,11 @@
 
 .numberExperience {
 
-    color: var(--color-primary-50);
+    // color: var(--color-primary-50);
+
+    color: transparent;
+    background-image: linear-gradient( 45deg, #A06DF3, #01E585 );
+    background-clip: text;
 
     font-family: var(--font-primary);
     font-size: var(--title-1);
