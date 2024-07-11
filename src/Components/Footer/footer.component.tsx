@@ -15,9 +15,9 @@ export const Footer = () => {
                     </div>
 
                     <div className={style.containerSecond}>
-                        <BsFacebook className={style.imageFooter}/>
-                        <BsInstagram className={style.imageFooter}/>
-                        <BsLinkedin className={style.imageFooter}/>
+                        <BsFacebook className={style.imageFooterFacebook}/>
+                        <BsInstagram className={style.imageFooterInstagram}/>
+                        <BsLinkedin className={style.imageFooterLinkedIn}/>
                     </div>
                 </div>
                 

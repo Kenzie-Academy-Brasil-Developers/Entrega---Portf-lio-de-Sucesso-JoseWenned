@@ -34,7 +34,7 @@ export const Home = () => {
 
                     <div className={style.containerThird}>
 
-                        <h2 className={style.paragraphPrimary}>I <span className={style.textPurple}>love</span> creating and <span className={style.textPurple}>developing</span> projects.</h2>
+                        <h2 className={style.paragraphPrimary}>I <span className={style.textColorFul}>love</span> creating and <span className={style.textColorFul}>developing</span> projects.</h2>
 
                         <p className={style.paragraphSecond}>Discover here in this environment, created especially for you, all my projects and technologies.</p>
 

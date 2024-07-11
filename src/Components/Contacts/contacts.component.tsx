@@ -20,7 +20,7 @@ export const Contacts = () => {
                     <div className={style.containerTwoSubSection}>
 
                         <div className={style.containerTitle}>
-                            <h2 className={style.titleSection}>Let's set up a conversation and <span className={style.textPurple}>develop our creativity</span> together?</h2>
+                            <h2 className={style.titleSection}>Let's set up a conversation and <span className={style.textColorFull}>develop our creativity</span> together?</h2>
                         </div>
 
                         <ul>

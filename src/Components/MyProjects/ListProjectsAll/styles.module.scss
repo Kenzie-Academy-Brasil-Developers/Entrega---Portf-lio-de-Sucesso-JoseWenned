@@ -99,7 +99,7 @@
 
     border: none;
     border-radius: 8px;
-    background-color: var(--color-primary);
+    background: linear-gradient(45deg, #A06DF3, #01E585);
     color: var(--color-white);
 
     font-family: var(--font-primary);
@@ -114,7 +114,7 @@
 
 .button:hover {
 
-    background-color: var( --color-primary-50);
+    background: linear-gradient(45deg, #A06DF3cc, #01E585cc);
 
 }
 

@@ -64,7 +64,7 @@
 
 };
 
-.imageFooter {
+.imageFooterFacebook {
 
     width: 24px;
     height: 24px;
@@ -75,9 +75,44 @@
 
 };
 
-.imageFooter:hover {
+.imageFooterFacebook:hover {
 
-    color: var(--color-gray-3);
+    color: #0038a8;
 
 };
+
+.imageFooterInstagram {
+
+    width: 24px;
+    height: 24px;
+
+    color: var(--color-gray-2);
+
+    cursor: pointer;
+
+};
+
+.imageFooterInstagram:hover {
+
+    color: #833ab4;
+
+};
+
+.imageFooterLinkedIn {
+
+    width: 24px;
+    height: 24px;
+
+    color: var(--color-gray-2);
+
+    cursor: pointer;
+
+};
+
+.imageFooterLinkedIn :hover {
+
+    color: #0038a8;
+
+};
+
 
