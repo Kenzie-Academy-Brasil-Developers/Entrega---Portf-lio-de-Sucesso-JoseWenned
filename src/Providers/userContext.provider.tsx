@@ -61,9 +61,9 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
 
         const link = document.createElement("a");
 
-        link.href = "https://drive.google.com/file/d/1xZFwtGGZVXVqHOgAT5aDYLuFMJ6hytWD/view?usp=sharing";
+        link.href = "https://drive.google.com/file/d/12LUnthB94iYg_Ehbzqwoc1kmAr95k_r_/view?usp=sharing";
 
-        link.download = "José-Wenned-Chaves-de-Sousa-Currículo-Full-Stack (2).pdf";
+        link.download = "José-Wenned-Chaves-de-Sousa-Currículo-Full-Stack.pdf";
 
         link.click()
 
