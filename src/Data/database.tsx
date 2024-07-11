@@ -13,6 +13,7 @@ import APIUserAndCourse from "../assets/User e Courses.png"
 import APIKImoveis from "../assets/KImoveis.png"
 import APIChallengeFullStack from "../assets/Challenge Full Stack.png"
 import APIDatabasePortfolioJoseWenned from "../assets/Database Portfolio José Wenned.png"
+import DiagramsWorkBenchMySQLProfRodrigues from "../assets/Diagrams-Prof-Rodrigues.png"
 
 import imageHtml from "../assets/icons8-html-48.png"
 import imageCss from "../assets/icons8-css-48.png"
@@ -206,6 +207,23 @@ export const projects = [
         linkOne: "https://github.com/Kenzie-Academy-Brasil-Developers/Entrega-1-Tech-FrontEnd-Desafio-Fullstack-JoseWenned",
         linkTwo: "https://github.com/Kenzie-Academy-Brasil-Developers/Entrega-1-Tech-Desafio-Fullstack-JoseWenned",
         category: "Fullstack"
+    },
+
+    {
+        id: 16,
+        image: DiagramsWorkBenchMySQLProfRodrigues,
+        name: "Project Freelancer Diagrams Entities Rede Social",
+        language: "Workbench MySQL",
+        description: `For a freelance project, I designed comprehensive entity diagrams for a social network platform. The diagrams detailed the essential components and their relationships within the system. Key entities included:
+            Users: Representing individuals with attributes such as username, email, password, profile picture, and bio.
+            Likes: Tracking interactions where users like posts, with references to both the user and the post.
+            Comments: Capturing user comments on posts, including the text, timestamp, and references to the user and post.
+            Chat: Enabling real-time communication between users, including messages with content, timestamps, and sender/receiver references.
+            Friend Connections: Managing user connections, indicating friendship status and timestamps for when friendships are established.
+            This project showcased my ability to understand complex requirements and translate them into clear, logical diagrams, ensuring a robust foundation for the development of social networking features.`,
+        linkOne: "https://github.com/JoseWenned/Repository-Diagrams-Workbench-MySQL-Prof-Rodrigues",
+        linkTwo: "",
+        category: "Backend"
     },
     
 ];
