@@ -1,12 +1,13 @@
-import { useForm } from "react-hook-form"
+import { SubmitHandler, useForm } from "react-hook-form"
+import { IEvaluationCreate } from "../../Interfaces/EvaluationContext/evaluation.interface";
 
 export const FormRegister = () => {
 
-    const { register, handleSubmit, formState: { errors }, reset } = useForm();
+    const { register, handleSubmit, formState: { errors }, reset } = useForm<IEvaluationCreate>();
 
-    const submit = ( formData ) => {
+    const submit: SubmitHandler<IEvaluationCreate> = ( formData ) => {
 
-        addTodo( { name, profession, description } );
+        addTodo( formData );
         reset();
 
     };
@@ -23,11 +24,11 @@ export const FormRegister = () => {
 
                 <label htmlFor="profession">Profession</label>
                 <input id="profession" type="text" placeholder="Type here is profession" required { ...register( "profession" ) } />
-                { errors.name ? <p>{ errors.profession.message }</p>: null }
+                { errors.profession ? <p>{ errors.profession.message }</p>: null }
 
                 <label htmlFor="description">Description</label>
                 <textarea id="description" placeholder="Type here is description" required { ...register( "description" ) }></textarea>
-                { errors.name ? <p>{ errors.description.message }</p>: null }
+                { errors.description ? <p>{ errors.description.message }</p>: null }
 
                 <button type="submit">Register evaluation</button>
 
@@ -38,3 +39,5 @@ export const FormRegister = () => {
     )
 
 }
+
+
