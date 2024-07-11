@@ -15,6 +15,7 @@ export type IEvaluationReturn = IEvaluationCreate[];
 export interface IEvaluationProvidersProps {
 
     children: React.ReactNode;
+    addTodo: ( FormData: IEvaluation ) => void;
 
 };
 
