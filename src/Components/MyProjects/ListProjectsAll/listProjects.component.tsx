@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { UserContext } from "../../../Providers/userContext.provider"
+import { UserContext } from "../../../Providers/UserContext.provider"
 import style from "./styles.module.scss"
 
 export const ListProjectsAll = () => {

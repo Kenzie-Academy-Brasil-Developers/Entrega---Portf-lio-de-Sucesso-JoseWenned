@@ -1,12 +1,15 @@
 import { createContext, useState } from "react";
-import { IUserContext, IUserProvidersProps } from "../Interfaces/UserContext/userContext.inteface";
 import { projects } from "../Data/database";
+import { TcreateEvaluationForm } from "../schemas/evaluationFormSchema.schema";
+import { IUserContext, IUserProvidersProps } from "./@types";
+
 export const UserContext = createContext({} as IUserContext)
 
 export const UserProvider = ( { children }: IUserProvidersProps) => {
 
     const [category, setCategory] = useState( "All projects" );
-    const [isModal, setModal] = useState ( false )
+    const [isModal, setModal] = useState ( false );
+    const [ evaluation, setEvaluation ] = useState< TcreateEvaluationForm[] >([]);
 
     // Function for copy text E-mail:
 
@@ -94,6 +97,15 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
     const handleOpenLink = ( link: string ) => {
         window.open( link, "_blank" );
     };
+
+    // function add evaluation 
+
+    const addTodo = ( formData: TcreateEvaluationForm ) => {
+
+        const newEvaluation = { ...formData, id: crypto.randomUUID() }
+        setEvaluation([ ...evaluation, newEvaluation ]);
+
+    };
     
     return(
         <UserContext.Provider value={{
@@ -105,7 +117,8 @@ export const UserProvider = ( { children }: IUserProvidersProps) => {
             sumProjects,
             handleOpenLink,
             isModal,
-            setModal
+            setModal,
+            addTodo
         }}>
             { children }
         </UserContext.Provider>

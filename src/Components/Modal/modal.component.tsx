@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CgCloseR } from "react-icons/cg";
-import { UserContext } from "../../Providers/userContext.provider";
+import { UserContext } from "../../Providers/UserContext.provider";
 import style from "./style.module.scss"
 import perfil1 from "../../assets/Perfil.jpeg"
 
