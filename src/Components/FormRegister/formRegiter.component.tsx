@@ -1,6 +1,7 @@
 import { SubmitHandler, useForm } from "react-hook-form"
 import { useState } from "react";
 import { TcreateEvaluationForm } from "../../schemas/evaluationFormSchema.schema";
+import { Input } from "../../fragments/Input/input.fragment";
 
 export const FormRegister = () => {
 
@@ -28,12 +29,24 @@ export const FormRegister = () => {
             <form onSubmit={ handleSubmit( submit ) }>
 
                 <label htmlFor="name">Name</label>
-                <input id="name" type="text" placeholder="Type here is name" required { ...register( "name" ) }/>
-                { errors.name ? <p>{ errors.name.message }</p>: null }
+                <Input 
+                    id="name" 
+                    type="text" 
+                    placeholder="Type here is name" 
+                    required 
+                    { ...register( "name" ) }
+                    error={errors.name}
+                />
 
                 <label htmlFor="profession">Profession</label>
-                <input id="profession" type="text" placeholder="Type here is profession" required { ...register( "profession" ) } />
-                { errors.profession ? <p>{ errors.profession.message }</p>: null }
+                <Input 
+                    id="name" 
+                    type="text" 
+                    placeholder="Type here is name"
+                    required 
+                    { ...register( "profession" ) }
+                    error={errors.profession}
+                />
 
                 <label htmlFor="description">Description</label>
                 <textarea id="description" placeholder="Type here is description" required { ...register( "description" ) }></textarea>
