@@ -7,9 +7,6 @@ export interface IEvaluation {
 
 }
 
-export interface IEvaluationCreate extends Omit< IEvaluation, "id" >{};
-export type IEvaluationReturn = IEvaluationCreate[];
-
 export interface IEvaluationProvidersProps {
 
     children: React.ReactNode;
