@@ -2,6 +2,7 @@ import { SubmitHandler, useForm } from "react-hook-form"
 import { useState } from "react";
 import { TcreateEvaluationForm } from "../../schemas/evaluationFormSchema.schema";
 import { Input } from "../../fragments/Input/input.fragment";
+import { TextArea } from "../../fragments/Textarea/textarea.fragment";
 
 export const FormRegister = () => {
 
@@ -49,8 +50,13 @@ export const FormRegister = () => {
                 />
 
                 <label htmlFor="description">Description</label>
-                <textarea id="description" placeholder="Type here is description" required { ...register( "description" ) }></textarea>
-                { errors.description ? <p>{ errors.description.message }</p>: null }
+                <TextArea 
+                    id="description" 
+                    placeholder="Type here is description" 
+                    required 
+                    { ...register( "description" ) } 
+                    error={errors.description}
+                />
 
                 <button type="submit">Register evaluation</button>
 
