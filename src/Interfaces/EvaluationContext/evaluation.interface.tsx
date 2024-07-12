@@ -1,5 +1,3 @@
-import { Value } from "sass";
-
 export interface IEvaluation {
 
     id: string
@@ -9,13 +7,12 @@ export interface IEvaluation {
 
 }
 
-export interface IEvaluationCreate extends Omit< Value, "id" >{};
+export interface IEvaluationCreate extends Omit< IEvaluation, "id" >{};
 export type IEvaluationReturn = IEvaluationCreate[];
 
 export interface IEvaluationProvidersProps {
 
     children: React.ReactNode;
-    addTodo: ( FormData: IEvaluation ) => void;
 
 };
 

@@ -1,12 +1,21 @@
 import { SubmitHandler, useForm } from "react-hook-form"
 import { IEvaluationCreate } from "../../Interfaces/EvaluationContext/evaluation.interface";
+import { useState } from "react";
 
 export const FormRegister = () => {
 
+    const [ evaluation, setEvaluation ] = useState< IEvaluationCreate[] >([]);
     const { register, handleSubmit, formState: { errors }, reset } = useForm<IEvaluationCreate>();
+
+    const addTodo = ( formData: IEvaluationCreate ) => {
+
+        setEvaluation([ ...evaluation, formData ]);
+
+    };
 
     const submit: SubmitHandler<IEvaluationCreate> = ( formData ) => {
 
+        console.log(formData);
         addTodo( formData );
         reset();
 
@@ -39,5 +48,4 @@ export const FormRegister = () => {
     )
 
 }
-
 
