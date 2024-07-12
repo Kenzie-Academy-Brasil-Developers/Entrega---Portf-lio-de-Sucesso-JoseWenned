@@ -1,3 +1,5 @@
+import { IEvaluation } from "../EvaluationContext/evaluation.interface";
+
 export interface IDataProject {
     image: string | undefined;
 
