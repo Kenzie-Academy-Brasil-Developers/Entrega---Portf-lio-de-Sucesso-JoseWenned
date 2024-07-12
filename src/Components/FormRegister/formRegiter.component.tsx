@@ -1,19 +1,20 @@
 import { SubmitHandler, useForm } from "react-hook-form"
-import { IEvaluationCreate } from "../../Interfaces/EvaluationContext/evaluation.interface";
+// import { IEvaluationCreate } from "../../Interfaces/EvaluationContext/evaluation.interface";
 import { useState } from "react";
+import { TcreateEvaluationForm } from "../../schemas/evaluationFormSchema.schema";
 
 export const FormRegister = () => {
 
-    const [ evaluation, setEvaluation ] = useState< IEvaluationCreate[] >([]);
-    const { register, handleSubmit, formState: { errors }, reset } = useForm<IEvaluationCreate>();
+    const [ evaluation, setEvaluation ] = useState< TcreateEvaluationForm[] >([]);
+    const { register, handleSubmit, formState: { errors }, reset } = useForm<TcreateEvaluationForm>();
 
-    const addTodo = ( formData: IEvaluationCreate ) => {
+    const addTodo = ( formData: TcreateEvaluationForm ) => {
 
         setEvaluation([ ...evaluation, formData ]);
 
     };
 
-    const submit: SubmitHandler<IEvaluationCreate> = ( formData ) => {
+    const submit: SubmitHandler<TcreateEvaluationForm> = ( formData ) => {
 
         console.log(formData);
         addTodo( formData );
