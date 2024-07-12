@@ -1,19 +1,18 @@
 import { SubmitHandler, useForm } from "react-hook-form"
-import { useState } from "react";
-import { TcreateEvaluationForm } from "../../schemas/evaluationFormSchema.schema";
+import { useContext } from "react";
+import { evaluationFormSchema, TcreateEvaluationForm } from "../../schemas/evaluationFormSchema.schema";
 import { Input } from "../../fragments/Input/input.fragment";
 import { TextArea } from "../../fragments/Textarea/textarea.fragment";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { UserContext } from "../../Providers/UserContext.provider";
 
 export const FormRegister = () => {
 
-    const [ evaluation, setEvaluation ] = useState< TcreateEvaluationForm[] >([]);
-    const { register, handleSubmit, formState: { errors }, reset } = useForm<TcreateEvaluationForm>();
+    const { addTodo } = useContext(UserContext)
 
-    const addTodo = ( formData: TcreateEvaluationForm ) => {
-
-        setEvaluation([ ...evaluation, formData ]);
-
-    };
+    const { register, handleSubmit, formState: { errors }, reset } = useForm<TcreateEvaluationForm>({
+        resolver: zodResolver(evaluationFormSchema)
+    });
 
     const submit: SubmitHandler<TcreateEvaluationForm> = ( formData ) => {
 
@@ -67,4 +66,6 @@ export const FormRegister = () => {
     )
 
 }
+
+
 

@@ -1,4 +1,4 @@
-import { IEvaluation } from "../EvaluationContext/evaluation.interface";
+import { TcreateEvaluationForm } from "../schemas/evaluationFormSchema.schema";
 
 export interface IDataProject {
     image: string | undefined;
@@ -30,6 +30,7 @@ export interface IUserContext {
     handleOpenLink: ( link: string ) => void
     isModal: any
     setModal: (boolean: boolean) => void
+    addTodo: (formData: TcreateEvaluationForm) => void
 
 }
 

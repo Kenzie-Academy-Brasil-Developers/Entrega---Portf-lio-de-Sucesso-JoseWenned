@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { UserContext } from "../../Providers/userContext.provider"
+import { UserContext } from "../../Providers/UserContext.provider"
 import style from "./style.module.scss"
 import { IoIosBriefcase } from "react-icons/io";
 import { IoMdContacts } from "react-icons/io";

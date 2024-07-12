@@ -1,4 +1,4 @@
-import { UserContext } from "../../Providers/userContext.provider"
+import { UserContext } from "../../Providers/UserContext.provider"
 import { useContext } from "react"
 import style from "./style.module.scss"
 import { MdOutlineCopyAll } from "react-icons/md";
